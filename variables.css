@@ -1,0 +1,31 @@
+:root {
+    --background: #0E1720FF;
+    --text-family: tahoma, helvetica, sans-serif;
+    --text-color: #e1ecf1;
+
+    --lightBlue: #7FB7D3;
+    --lighterBlue: #c7d6f1;
+    --mediumBlue: #314f6d;
+    --veryDarkBlue: #0E1720;
+
+    --blue-gray: #2c4b66;
+
+    --gray: #999999;
+    --white: #ffffff;
+
+    --blockquote-bg-color: #193148;
+
+    --table-td-color: #0F3050;
+    --table-td-label: #426D93;
+    --table-td-body: #1B2E40FF;
+    --table-border-color: #355676;
+
+    --error: #C92020;
+
+    --inputButton-color: #FDFDFD;
+
+    --lime: #C7EB00;
+
+    --announcement-bg-color: #28609BCC;
+    --announcement-border-color: #28609BFF;
+}

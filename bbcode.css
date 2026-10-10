@@ -1,0 +1,176 @@
+/* *********************************** */
+/* **********BB CODE BUTTONS********** */
+/* *********************************** */
+
+#bb_bold, #bb_und, #bb_ita, #bb_img, #bb_link, #bb_strk, #bb_h2, #bb_h3, #bb_h4, #bb_h5, #bb_h6, #bb_h1, #bb_color, #bb_tex, #bb_quote, #bb_list, #bb_spoil, #bb_cent, #bb_lef, #bb_righ, #bb_pre, #bb_youtube {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+span.size1 {
+    font-size: 0.75em;
+}
+
+span.size2 {
+    font-size: 1em;
+}
+
+span.size3 {
+    font-size: 1.25em;
+}
+
+span.size4 {
+    font-size: 1.5em;
+}
+
+span.size5 {
+    font-size: 1.75em;
+}
+
+span.size6 {
+    font-size: 2em;
+}
+
+span.size7 {
+    font-size: 2.25em;
+}
+
+span.size8 {
+    font-size: 2.5em;
+}
+
+span.size9 {
+    font-size: 2.75em;
+}
+
+span.size10 {
+    font-size: 3em;
+}
+
+ul.thin {
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+ul.thin li {
+    margin: 0 0;
+    padding: 0;
+}
+
+#bb_bold {
+    background-image: URL('images/icons/text_bold.png');
+}
+
+#bb_und {
+    background-image: URL('images/icons/text_underline.png');
+}
+
+#bb_ita {
+    background-image: URL('images/icons/text_italic.png');
+}
+
+#bb_img {
+    background-image: URL('images/icons/images.png');
+}
+
+#bb_link {
+    background-image: URL('images/icons/link.png');
+}
+
+#bb_strk {
+    background-image: URL('images/icons/text_strikethrough.png');
+}
+
+#bb_h1 {
+    background-image: URL('images/icons/text_heading_1.png');
+}
+
+#bb_h2 {
+    background-image: URL('images/icons/text_heading_2.png');
+}
+
+#bb_h3 {
+    background-image: URL('images/icons/text_heading_3.png');
+}
+
+#bb_h4 {
+    background-image: URL('images/icons/text_heading_4.png');
+}
+
+#bb_h5 {
+    background-image: URL('images/icons/text_heading_5.png');
+}
+
+#bb_h6 {
+    background-image: URL('images/icons/text_heading_6.png');
+}
+
+#bb_color {
+    background-image: URL('images/icons/color_wheel.png');
+}
+
+#bb_tex {
+    background-image: URL('images/icons/font.png');
+}
+
+#bb_quote {
+    background-image: URL('images/icons/user_comment.png');
+}
+
+#bb_list {
+    background-image: URL('images/icons/text_list_bullets.png');
+}
+
+#bb_spoil {
+    background-image: URL('images/icons/eye.png');
+}
+
+#bb_cent {
+    background-image: URL('images/icons/text_align_center.png');
+}
+
+#bb_lef {
+    background-image: URL('images/icons/text_align_left.png');
+}
+
+#bb_righ {
+    background-image: URL('images/icons/text_align_right.png');
+}
+
+#bb_pre {
+    background-image: URL('images/icons/page_white_text.png');
+}
+
+#bb_youtube {
+    background-image: URL('images/icons/monitor.png');
+}
+
+.bbbutt {
+    background-color: #EEEEEE;
+    border: medium solid #365C80;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+    cursor: default;
+}
+
+.bbbutt li {
+    display: inline;
+    margin-right: 2px;
+}
+
+.bbbutt li a {
+    border: none;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+.bbbutt li select {
+    height: 16px
+}
+
+#forums #content tbody td .bbbutt a:hover {
+    border: hidden;
+}

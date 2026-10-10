@@ -1,0 +1,125 @@
+/***************************************************
+******************** CHANGELOG **********************
+****************************************************/
+
+#changelog tr.git_issue td {
+    padding: 15px 0 15px 8px;
+}
+
+#changelog table tr.rowa > td {
+    background-color: rgba(27, 47, 63, 0.75);
+}
+
+#changelog table tr.rowb > td {
+    background-color: rgba(24, 59, 88, 0.75);
+}
+
+#changelog .git_issue .title {
+    font-size: 1.1em;
+}
+
+#changelog .git_issue .sub_info {
+    padding-top: 8px;
+}
+
+#changelog .git_issue .issue_title .sub_info {
+    margin-top: -8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#changelog .git_issue .opened_time {
+    margin-top: 8px;
+    margin-right: 1rem;
+}
+
+#changelog .git_issue .labels {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#changelog .git_issue .labels > a {
+    margin-top: 8px;
+}
+
+#changelog .label_entity {
+    flex-grow: 1;
+    padding: 2px 6px 2px 6px;
+    margin: 4px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+#changelog .labels a:first-of-type .label_entity {
+    margin-left: 0;
+}
+
+#changelog #labels_all span.label_entity {
+    margin: 0;
+    line-height: 2.5em;
+}
+
+#changelog h1#display_name {
+    line-height: 2.5em;
+}
+
+#changelog .label_entity.closed {
+    color: #fff;
+    background-color: #1f78d1;
+    line-height: 2rem;
+    border-radius: 4px;
+}
+
+#changelog .label_entity.opened {
+    color: #fff;
+    background-color: #1aaa55;
+    line-height: 2rem;
+    border-radius: 4px;
+}
+
+#changelog .main_column_bg {
+    min-height: 260px;
+}
+
+#changelog .main_column div.body {
+    margin: 0 20px;
+    padding: 1.5em;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+#changelog #main_column_top {
+    background-image: none;
+}
+
+#changelog #main_column_bottom {
+    background-image: none;
+}
+
+#changelog .main_column .body p {
+    padding: 5px 0;
+    line-height: 1.5em;
+}
+
+#changelog .main_column .body ul {
+    margin-left: 30px;
+}
+
+#changelog .sidebar .box {
+    margin-left: -10px;
+}
+
+#changelog .issue_info li {
+    line-height: 1.3rem;
+}
+
+#changelog .issues_labels ul > li {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+#changelog #reply_box strong {
+    font-size: 1.4em;
+}

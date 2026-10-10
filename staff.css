@@ -1,0 +1,18 @@
+/* ************************* */
+/* **********STAFF********** */
+/* ************************* */
+
+#staff #content .thin .box {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#staff #content .thin .box table {
+    width: 95%;
+    margin: 8px auto;
+    background: url('images/companioncube2.png');
+}
+
+#staff h3 {
+    text-decoration: underline;
+}

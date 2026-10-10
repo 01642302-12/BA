@@ -1,0 +1,143 @@
+/*****************************************
+****************Game Themes***************
+*****************************************/
+/* Audiosurf */
+body.series_3327 {
+    background-image: url('images/gameseries/audiosurfbkg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.series_3327 #logo {
+    background-image: url('images/gameseries/audiosurflogo.png') !important;
+    top: 50px;
+    border-bottom: none;
+    width: 1080px;
+    background-position: center;
+}
+
+.series_3327 #logo a {
+    width: 1080px;
+}
+
+.series_3327 #header {
+    background: none;
+}
+
+.series_3327 .clan_trophy img {
+    height: 0;
+}
+
+.series_3327 h2 {
+    color: #fff
+}
+
+.series_3327 h2 a {
+    color: #fff
+}
+
+.series_3327 .linkbox a {
+    color: #fff
+}
+
+.series_3327 #menu ul a {
+    color: #e8e8e8 !important;
+}
+
+.series_3327 #menu ul a:hover {
+    color: #3ACFF9 !important;
+}
+
+.series_3327 .alertbar a {
+    color: #fff !important
+}
+
+.series_3327 #footer {
+    background: rgba(5, 10, 20, 0.85)
+}
+
+.series_3327 #footer_image {
+    height: 0
+}
+
+/* Gumi */
+body.tgroup_9559 {
+    background-image: url('images/gameseries/gumibkg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tgroup_9559 #logo {
+    background-image: url('images/gameseries/gumilogo.png') !important;
+    top: 50px;
+    border-bottom: none;
+    width: 1080px;
+    background-position: center;
+}
+
+.tgroup_9559 #logo a {
+    width: 1080px;
+}
+
+.tgroup_9559 #header {
+    background: none;
+}
+
+.tgroup_9559 .clan_trophy img {
+    height: 0;
+}
+
+.tgroup_9559 h2 {
+    color: #fff
+}
+
+.tgroup_9559 h2 a {
+    color: #fff
+}
+
+.tgroup_9559 .linkbox a {
+    color: #fff
+}
+
+.tgroup_9559 #menu ul, .tgroup_9559 #userinfo {
+    background: rgba(0, 96, 128, 0.9);
+    border-radius: 20px;
+}
+
+.tgroup_9559 #menu ul a {
+    color: #e8e8e8 !important;
+}
+
+.tgroup_9559 #menu ul a:hover {
+    color: #3ACFF9 !important;
+}
+
+.tgroup_9559 .main_column_bg, .tgroup_9559 .sidebar .box {
+    background: rgba(0, 96, 128, 0.9) !important
+}
+
+.tgroup_9559 #main_column_top {
+    background-image: none
+}
+
+.tgroup_9559 .alertbar a {
+    color: #fff !important;
+}
+
+.tgroup_9559 #footer {
+    background: rgba(0, 96, 128, 0.7)
+}
+
+.tgroup_9559 #footer_image {
+    height: 0
+}
+
+
+#crafting_panel .item .item_count,
+#trading_panel .item .item_count {
+    color: gold;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 6px #000;
+}

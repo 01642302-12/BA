@@ -1,0 +1,87 @@
+/* ************************ */
+/* **********WIKI********** */
+/* ************************ */
+
+#wiki .thin {
+    width: 853px !important;
+}
+
+#wiki pre {
+    color: #fff;
+}
+
+#wiki .spoilerbox {
+    color: #fff;
+}
+
+#wiki blockquote a {
+    color: #fff;
+}
+
+#wiki blockquote {
+    width: 475px;
+}
+
+#wiki .main_column {
+    background: url("images/companioncube-blue.png") repeat scroll -3px 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px #036 solid;
+    margin-left: 0;
+    width: 628px;
+    margin-bottom: 12px;
+}
+
+#wiki .main_column ul {
+    border-radius: 10px 10px 10px 10px;
+    list-style: disc inside none;
+    margin: auto;
+    padding: 11px;
+    text-align: left;
+    width: 450px;
+    box-shadow: 1px 1px 5px 1px #666;
+}
+
+#wiki .main_column .box, .main_column table {
+    background: none repeat scroll 0 0 transparent;
+    margin-bottom: 10px;
+}
+
+#wiki .thin .linkbox.box {
+    background: none repeat scroll 0 0 transparent;
+}
+
+#wiki .main_column .box .pad {
+    text-align: left;
+    width: 434px;
+    margin: 16px 50px;
+    color: #fff;
+}
+
+#wiki .main_column .box .pad img {
+    max-width: 500px !important;
+}
+
+#wiki .main_column .box .pad a {
+    border: medium none !important;
+    color: #7FB7D3;
+}
+
+#wiki body {
+    color: #e8e8e8;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 14pt
+}
+
+#wiki span.size5 {
+    font-size: 1.75em;
+    color: #7FB7D3;
+    line-height: 1.3em
+}
+
+#wiki .main_column .box .pad {
+    width: auto
+}
+
+#wiki .main_column .box .pad a {
+    border-bottom: 1px dotted #7FB7D3
+}

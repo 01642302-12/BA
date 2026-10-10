@@ -1,0 +1,72 @@
+/* ******************************* */
+/* *************RULES************* */
+/* ******************************* */
+
+#rules #wrapper #content {
+    background: url('images/companioncube2.png') repeat-y scroll top center;
+    color: #fff;
+}
+
+#rules #wrapper #content .thin {
+    background-color: rgba(27, 47, 63, 0.85);
+    color: #fff;
+}
+
+#rules #content li {
+    margin: 0 0 5px 0
+}
+
+#rules h2.center {
+    color: #fff;
+    border: hidden;
+}
+
+#rules h2 {
+    color: #fff;
+    border: hidden;
+}
+
+#rules #content .box p {
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+#rules #content a {
+    color: #fff;
+    border: hidden;
+}
+
+#rules #content .box a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#rules #content .thin a strong {
+    border: hidden;
+}
+
+#rules #wrapper #content .thin .box {
+    background-color: rgba(24, 59, 88, .55);
+    margin: 0 20px;
+    border: solid #036 1px;
+}
+
+#rules #content .thin {
+    padding-bottom: 30px;
+}
+
+#rules #content .thin .pad ul {
+    padding: 10px;
+}
+
+#rules #wrapper #content .thin .box a {
+    color: #fff;
+    border-bottom-color: #2c4b66;
+    text-decoration: none;
+}
+
+#rules #wrapper #content .thin .box a:hover {
+    color: #c7d6f1;
+    border-bottom-color: #444;
+    text-decoration: underline;
+}

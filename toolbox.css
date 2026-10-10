@@ -1,0 +1,93 @@
+/* ************************** */
+/* *******STAFF TOOLS******** */
+/* ************************** */
+
+#staff .thin .box {
+    padding-top: 3px !important
+}
+
+#site_debug {
+    border-top: dashed white;
+}
+
+#site_debug table {
+    width: auto;
+}
+
+#site_debug .debug_sql_extended {
+    margin: 5px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#tools #content .permission_container {
+    background: url("images/companioncube-blue.png") repeat-y center bottom;
+    float: left;
+    margin-right: 20px;
+    width: 228px;
+    border: #000 solid 1px;
+}
+
+#tools #content .permission_container td {
+    background-color: rgba(27, 47, 63, 0.5);
+    border: none;
+}
+
+#tools #content .permissions {
+    margin: 0 auto;
+}
+
+#tools td.colhead {
+    height: 8px;
+}
+
+#todo td.bug, #todo td.task {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+#todo td.bug {
+    background: url("images/bug.png") no-repeat;
+}
+
+#todo td.task {
+    background: url("images/task.png") no-repeat;
+}
+
+#todo .center {
+    margin: 0 auto;
+    float: none;
+}
+
+#tools #content input {
+    padding: 0 2px;
+    margin: 0 5px;
+}
+
+#reportsv2 textarea {
+    height: 200px;
+    width: 550px;
+}
+
+#reportsv2 #content ul li {
+    margin-left: 20px;
+}
+
+#platformStats .colhead, .colhead_dark {
+    text-align: left;
+}
+
+#platformStats tr a {
+    margin-left: 2px;
+}
+
+#platformStats .rowa td {
+    height: 15px !important;
+}
+
+#platformStats .rowb td {
+    height: 15px !important;
+}

@@ -1,0 +1,77 @@
+/* ************************** */
+/* *******Achievements******* */
+/* ************************** */
+
+#achievements {
+    border: 1px solid #036;
+    background-color: #426d93;
+}
+
+#achievements tr {
+    background: none;
+    border-bottom: #036 1px solid;
+    color: #fff;
+}
+
+#achievements td {
+    background: #426d93;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#achievements td.achlabel {
+    text-align: right;
+}
+
+#achievements td .levelcont {
+    margin: 0pt auto;
+    width: 78px;
+}
+
+#achievements td .levelcont .bubble {
+    display: inline-block;
+    vertical-align: top;
+    background-image: URL('images/userbubble.png');
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+#achievements td .levelcont .spacer {
+    width: 15px;
+    display: inline-block;
+    float: right;
+}
+
+#achievements td .italic {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#achievements td .levelcont .complete {
+    display: inline-block;
+    vertical-align: top;
+    background-image: URL('images/usercheck.png');
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+#achievements img {
+    border: none;
+    vertical-align: middle;
+}
+
+#achievements .levelcont img {
+    margin-left: 15px;
+    width: 48px;
+    float: left;
+}
+
+#achievements img:hover {
+    opacity: 1 !important;
+}

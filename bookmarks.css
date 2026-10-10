@@ -1,0 +1,23 @@
+/* ************************** */
+/* *******Bookmarks********** */
+/* ************************** */
+
+#torrents .main_column table#collages {
+    width: 95%;
+    margin: 0 20px;
+}
+
+#bookmarks table#collage_table td {
+    padding: 7px;
+    background-color: transparent;
+}
+
+#bookmarks table {
+    background: #1B2F3F8C url("images/companioncube-blue.png") repeat-y scroll center top;
+    border: #036 solid 1px;
+    width: 760px;
+}
+
+#bookmarks table td {
+    background-color: transparent;
+}

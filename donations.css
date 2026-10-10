@@ -1,0 +1,240 @@
+/* ************************** */
+/* **********DONATE********** */
+/* ************************** */
+
+.donation_box_wrapper {
+    border: 1px solid #2b2b2b;
+    display: block;
+    float: left;
+    width: 18.5%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.donation_box {
+    border: 1px solid #434343;
+    padding: 6px;
+    float: left;
+    background-color: #2f2f2f;
+    min-width: 91%;
+    min-height: 250px;
+    font-size: 8pt;
+}
+
+.donation_box ul li {
+    margin-left: -25px;
+    padding-bottom: 5px;
+}
+
+.donation_box h2 {
+    margin-top: -1px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+.std_donations_box_wrapper {
+    border: 1px solid #2b2b2b;
+    margin-bottom: 10px;
+}
+
+.std_donations_box {
+    border: 1px solid #434343;
+    padding: 0;
+    overflow: auto;
+    background-color: #2f2f2f;
+}
+
+.donation_head {
+    height: 225px;
+}
+
+.donate_box_wrapper {
+    width: 19%;
+    margin: 3px;
+    float: left;
+    border: 1px solid #262626;
+}
+
+.donate_box_header {
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #434343;
+    border-bottom: 1px solid #272727;
+    padding: 5px;
+    background-color: #2f2f2f;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.donate_box_header_nature {
+    background-color: #707DB3;
+}
+
+.donate_box_header_silver {
+    background-color: #868686;
+}
+
+.donate_box_header_gold {
+    background-color: #EAC117;
+    color: #222;
+}
+
+.donate_box_header_plat {
+    background-color: #fff;
+    color: #222;
+}
+
+.donate_box_header h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.donate_box_content {
+    border: 1px solid #434343;
+    padding: 5px;
+    background-color: #2f2f2f;
+}
+
+.donate_box_content_nature {
+    background-image: url("images/donate-natural.png");
+    color: #000;
+}
+
+.donate_box_content_silver {
+    background: #c0c0c0 url("images/donate-silver.png") no-repeat center bottom;
+    color: #333;
+}
+
+.donate_box_content_gold {
+    background: #FDD017 url("images/donate-gold.png") no-repeat center bottom;
+    color: #222;
+}
+
+.donate_box_content_plat {
+    background: #E5E4E2 url("images/donate-platinum.png") no-repeat center bottom;
+    color: #222;
+}
+
+.donate_box_choice {
+    min-height: 230px;
+    position: relative;
+}
+
+.donate_box_choice input {
+    position: absolute;
+    bottom: 10px;
+    height: 14px;
+    width: 95%;
+}
+
+.donate_box_choice ul {
+    overflow: hidden;
+}
+
+.donate_box_choice ul li {
+}
+
+.donate_box_content ul li {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+.donate-button-nature {
+    border: 1px solid #2a2a2a;
+    background: #707db3;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.donate-button-silver {
+    border: 1px solid #2a2a2a;
+    background: #868686;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.donate-button-gold {
+    border: 1px solid #2a2a2a;
+    background: #EAC117;
+    color: #222;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.donate-button-platinum {
+    border: 1px solid #2a2a2a;
+    background: #fff repeat-x;
+    color: #222;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.donate-button-custom {
+    border: 1px solid #2a2a2a;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 5px;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#donate p {
+    margin: 10px;
+    font-size: 10pt;
+}
+
+#donate #content input {
+    margin: 10px;
+}
+
+#donate #content input.custom_amount {
+    width: 151px;
+}
+
+#donate #content ul li {
+    margin-bottom: 5px;
+}
+
+#donate #content ul {
+    margin: 10px;
+}
+
+.donate_bitcoin {
+    text-align: center;
+}
+
+.donate_bitcoin .bitcoin-qr {
+    background-image: url("/static/common/bitcoin-qr.PNG");
+    height: 255px;
+    margin: 0 auto 10px;
+    width: 254px;
+}
+
+.donation_info img {
+    padding: 0 2px 0 2px;
+}

@@ -1,0 +1,53 @@
+/* ************************* */
+/* ******Gazelle Viewer***** */
+/* ************************* */
+
+.gazelles_art_display {
+    background: url('images/companioncube-blue.png') !important;
+}
+
+.gazelles_art_display td {
+    border: none;
+    padding: 2px;
+    width: 25%;
+}
+
+.gazelles_art_display .gazelle_art {
+    height: 180px;
+    background-size: 245px 180px;
+    background-color: white;
+}
+
+#gazelleview .gazellepic tbody, #gazelleview .gazellepic tr, #gazelleview .gazellepic td {
+    width: 100%;
+    border: 0;
+}
+
+#gazelleview .gazellepic img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#gazelleview #titlerow p {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+#gazelleview .gazelleinfo .rowtitle {
+    text-decoration: underline;
+}
+
+#gazelleview #gazelletags {
+    margin-left: 4px;
+}
+
+#gazelleview #usertagsrow #tags {
+    width: 25%;
+}
+
+#gazelleview #usertagsrow #newtag {
+    width: 120px;
+}

@@ -1,0 +1,45 @@
+/*Ratio Colors*/
+
+.r00 {
+    color: #FF0000;
+}
+
+.r01 {
+    color: #FF1300;
+}
+
+.r02 {
+    color: #FF1300;
+}
+
+.r03 {
+    color: #FF2600;
+}
+
+.r04 {
+    color: #FF4C00;
+}
+
+.r05 {
+    color: #FF5E00;
+}
+
+.r06 {
+    color: #FF5E00;
+}
+
+.r07 {
+    color: #FF7100;
+}
+
+.r08 {
+    color: #FF9700;
+}
+
+.r09 {
+    color: #FFAA00;
+}
+
+.r10, .r20, .r50, .r99 {
+    color: #c7eb00;
+}

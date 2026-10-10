@@ -1,0 +1,55 @@
+/* ************************** */
+/* **********TOP 10********** */
+/* ************************** */
+
+#top10 #content .thin .center {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#top10 #content .thin .center table {
+    background: url('images/companioncube2.png');
+    border: 1px #003 solid;
+}
+
+#top10 #content .thin .center table tr td {
+    background-color: rgba(27, 47, 63, 0.85);
+    border: none;
+}
+
+#top10 #content .thin .center table tr td.label {
+    background-color: rgba(27, 47, 63, 0.85);
+    border: none;
+}
+
+#top10 #content .group_torrent td.center {
+    width: 28px;
+}
+
+#top10 #content table.border {
+    background: url('images/mariobkg2.png') center center;
+    border: 1px #003 solid;
+}
+
+#top10 #content .thin tr.rowa {
+    background-color: transparent;
+}
+
+#top10 #content .thin tr.rowb {
+    background-color: transparent;
+}
+
+#top10 #content .rowa td {
+    background-color: rgba(27, 47, 63, 0.75);
+    border: none;
+}
+
+#top10 #content .rowb td {
+    background-color: rgba(24, 59, 88, 0.75);
+    border: none;
+}
+
+#top10 #content table tr.colhead td {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 center transparent !important;
+    border: none;
+}

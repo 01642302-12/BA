@@ -1,0 +1,115 @@
+/****************************************************
+******************** CALENDAR ***********************
+****************************************************/
+
+#calendar .main_column {
+    width: 100%;
+}
+
+table.calendar {
+    background-color: #1b2e40;
+    border: 1px solid #314f6d;
+    width: 95%;
+    margin: 0 auto 25px;
+}
+
+table.calendar td {
+    border: 1px solid #314f6d;
+}
+
+table.calendar td.calendar-day-np {
+    border: none;
+}
+
+td.calendar-day {
+    height: 100px;
+}
+
+.change_month_links {
+    float: right;
+    top: -28px;
+    position: relative;
+    font-size: 1.5em;
+    right: 5px;
+}
+
+.calendar-heading {
+    background-color: #314f6d;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.month-picker-open-button {
+    height: auto;
+}
+
+#calendar .ui-state-default {
+    background: transparent;
+    border: none;
+    filter: brightness(100);
+}
+
+#calendar .ui-button-icon-only .ui-icon {
+    margin-left: -11px;
+    margin-top: -11px;
+}
+
+#calendar td.calendar-day.today {
+    background-color: rgba(246, 255, 111, 0.1);
+}
+
+#calendar td.calendar-day:hover {
+    background-color: #314f6d;
+}
+
+td.calendar-day-np {
+    background: none;
+}
+
+#calendar div.day-number {
+    background-color: transparent;
+    font-size: 1.2em;
+    top: 8px;
+    right: 8px;
+    position: absolute;
+}
+
+#calendar .day-events p {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+#calendar .tooltipster-content p,
+#calendar .tooltipster-content strong {
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+#calendar .tooltipster-default {
+    min-width: 350px;
+}
+
+#calendar .tooltipster-default .tooltipster-content {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#calendar td.label {
+    text-align: left;
+}
+
+#calendar td.label hr, #calendar td.small_label hr {
+    display: none;
+}
+
+.event_form_table td {
+    padding-top: 5px;
+}
+
+.event_form_table #body {
+    width: 100% !important;
+    height: 100px;
+    margin-left: 0;
+}

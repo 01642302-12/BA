@@ -1,0 +1,331 @@
+/* ************************** */
+/* ********News Page********* */
+/* ************************** */
+
+.sidebar {
+    float: right;
+    width: 207px;
+    height: 100%;
+}
+
+.sidebar .box {
+    width: 207px;
+    background-color: #264059;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    color: #cef6ff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.sidebar .box .head .pollhead {
+    padding: 0;
+    height: 25px;
+    list-style: none;
+}
+
+.sidebar .box .head .pollhead li {
+    display: inline;
+    background-image: url("images/NavUserIcons.png");
+    background-repeat: no-repeat;
+    background-position: left -200px;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+.sidebar .box .head .statistics_head {
+    height: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .box .head .statistics_head li {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: left -220px;
+    display: inline;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+.sidebar .box .head .staff_pick_head {
+    height: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .box .head .staff_pick_head li {
+    background-image: url('images/icons/rosette.png');
+    background-repeat: no-repeat;
+    display: inline;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+.sidebar .box #upcoming_calendar .day-label {
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px 0;
+    display: block;
+}
+
+.sidebar .box .calendar li {
+    list-style-type: none;
+}
+
+.sidebar .box .day-events li {
+    padding: 5px;
+}
+
+.sidebar .box .day-events .event_end_time.brackets {
+    font-size: .9em;
+    font-style: italic;
+    padding-left: 3px;
+}
+
+.tooltipster-default .tooltipster-content {
+    font-size: 12px !important;
+}
+
+#index #content .sidebar .colhead_dark {
+    padding-top: 0;
+}
+
+#index .sidebar .box .staff_pick a {
+    border-bottom: hidden;
+}
+
+#index .sidebar .box .staff_pick a:hover {
+    top: 0;
+    left: 0;
+}
+
+#index .sidebar .box .staff_pick li a {
+    color: #7FB7D3;
+    text-decoration: none;
+    border-bottom: dotted 1px #2c4b66;
+}
+
+#index .sidebar .box .staff_pick li a:hover {
+    color: #a1d6f1;
+    border-bottom: dotted 1px #CCC;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.sidebar .box .head, .sidebar .box .head a {
+    background-image: url('images/ColHead.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 25px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #cef6ff;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-topleft: 8px;
+}
+
+.sidebar .box ul {
+    padding: 1em;
+}
+
+.sidebar .box ol {
+    padding: 1em;
+}
+
+.sidebar .box a {
+    color: #CEF6FF;
+    text-decoration: none;
+    border-bottom: 1px dotted #2c4b66;
+}
+
+.sidebar .box a:hover {
+    border-bottom-color: #CCC;
+}
+
+.main_column .box .head {
+    background-image: url('images/MainHeader.png');
+    height: 48px;
+    width: 735px;
+    background-repeat: no-repeat;
+    line-height: 48px;
+    margin: 15px auto;
+}
+
+.main_column .box .head strong {
+    color: #bcdfef;
+    margin-left: 15px;
+    line-height: 48px;
+    float: left;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+    letter-spacing: 1px;
+}
+
+.main_column .head .newsdate {
+    background-image: url('images/DateBG.png');
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 35px;
+    line-height: 35px;
+    float: right;
+    margin: 5px;
+    color: #1C3247;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 10pt;
+}
+
+.main_column_bg, .main_column, #main_column_bottom, #main_column_top {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.main_column_bg {
+    background-color: #27415A;
+    width: 762px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.main_column {
+    float: left;
+    width: 762px;
+    z-index: 3;
+    position: relative;
+}
+
+#main_column_bottom {
+    background-image: url("images/MainBodyBottom.png");
+    height: 272px;
+    width: 762px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
+}
+
+#main_column_top {
+    background-image: url("images/MainBodyTop.png");
+    height: 595px;
+    position: absolute;
+    width: 762px;
+    z-index: 2;
+    background-repeat: no-repeat;
+}
+
+.main_column .box, .main_column table {
+    margin-bottom: 10px;
+    background: none;
+}
+
+.main_column .box .pad {
+    color: #CEF6FF;
+    margin-left: 15px;
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 9pt;
+}
+
+.main_column .box .pad ul {
+    margin-left: 27px;
+}
+
+.main_column .box .pad a {
+    color: #c7eb00;
+    text-decoration: none;
+}
+
+.main_column .box .pad a:hover {
+    color: #c7eb00;
+    text-decoration: underline
+}
+
+#index blockquote {
+    background-color: #193148;
+    color: #fff;
+}
+
+#index #content {
+    width: 984px;
+}
+
+#index .thin {
+    width: 984px;
+}
+
+h2 a.username {
+    color: #BCDFEF;
+}
+
+ul.stats li {
+    padding-top: 5px;
+}
+
+ul.poll li {
+    margin-bottom: 6px;
+}
+
+ul.poll li.graph {
+    margin-bottom: 12px;
+    height: 11px;
+}
+
+#vanityhouse td {
+    text-align: center;
+}
+
+#vanityhouse img {
+    max-width: 170px;
+}
+
+#markread { /*Code to mark new news items as read*/
+    background-image: url("images/newscheckbox.png");
+    background-repeat: no-repeat;
+    border-bottom: medium none;
+    float: left;
+    height: 18px;
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 18px;
+}
+
+.main_column .box .head#unread { /*Probably related to new items*/
+    background-position: left bottom;
+}
+
+.sidebar .box {
+    position: relative;
+}
+
+/*Staff Picks box, etc.*/
+.sidebar .box p {
+    padding: 1em;
+}
+
+.sidebar img {
+    max-width: 170px !important;
+    border: solid 1px #e1ecf1;
+    margin: 10px;
+}
+
+#dailygazelle #gazelletitle {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#dailygazelle img {
+    position: relative;
+    text-align: center;
+    top: 5%;
+    left: 5%;
+}

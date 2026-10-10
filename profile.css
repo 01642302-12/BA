@@ -1,0 +1,256 @@
+/* ************************** */
+/* ****User Profile Views**** */
+/* ************************** */
+
+#userhistory #content .thin table {
+    width: 800px;
+    margin: auto;
+    background: url('images/companioncube2.png') repeat-y scroll bottom right;
+}
+
+#userhistory #content .thin table tr {
+    background-color: transparent;
+}
+
+#userhistory #content table td {
+    background-color: rgba(38, 63, 88, .85);
+    border: #003 solid 1px;
+}
+
+#userhistory #content table td.avatar {
+    background-color: rgba(38, 63, 88, .85);
+}
+
+/* ************************ */
+/* ****USER EDIT SCREEN**** */
+/* ************************ */
+
+#user #requests table {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#user #content .thin table {
+    background: url('images/companioncube2.png') repeat-y scroll bottom right;
+    border: 1px #036 solid;
+}
+
+#user #content .thin td {
+    background-color: rgba(24, 59, 88, 0.85);
+    border: none;
+}
+
+#user #content .thin td.label {
+    background-color: rgba(27, 47, 63, 0.85);
+    text-align: left;
+    font-weight: bold;
+}
+
+#user #content table tr.colhead td { /*Column headers in edit screens */
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 center transparent;
+    color: #FFFFFF;
+    font-size: 7pt;
+    font-weight: 700;
+    height: 12px;
+    padding-top: 10px;
+    white-space: nowrap;
+    background-size: auto 100%;
+}
+
+#user #content table td.colhead {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 center transparent;
+    color: #FFFFFF;
+    font-size: 7pt;
+    font-weight: 700;
+    height: 12px;
+    padding-top: 10px;
+    white-space: nowrap;
+    background-size: auto 100%;
+}
+
+#user #content table tr.colhead_dark td {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 center transparent;
+    color: #FFFFFF;
+    font-size: 7pt;
+    font-weight: 700;
+    height: 10px;
+    padding-top: 5px;
+    white-space: nowrap;
+    background-size: auto 100%;
+}
+
+#user #content table td.colhead_dark {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 center transparent;
+    color: #FFFFFF;
+    font-size: 7pt;
+    font-weight: 700;
+    height: 10px;
+    padding-top: 5px;
+    white-space: nowrap;
+    background-size: auto 100%;
+}
+
+#user #content #itemsdiv table td {
+    width: 25%;
+}
+
+#user #content #itemsdiv table td div {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+#user #content #itemsdiv table td div img {
+    max-width: 75px;
+    padding: 2px;
+}
+
+/***** User Profile ******/
+#user .profile .box_stats li.online {
+    font-weight: bold;
+    color: #C7EB35;
+}
+
+#user .profile .profile_link_count {
+    font-weight: bold;
+}
+
+#user .profile .profile_link_count:after {
+    content: ")";
+}
+
+#user .profile .profile_link_count:before {
+    content: "(";
+}
+
+#user .profile #user_stats {
+    margin-top: -15px;
+}
+
+.profile .box_community #community_stats {
+    display: block;
+    overflow: auto;
+    margin: -5px 0 0 -10px;
+}
+
+.profile .box_community #community_stats ul {
+    float: left;
+    width: 21%;
+    list-style: none;
+}
+
+.profile .box_community .space {
+    height: 10px;
+}
+
+.box_review_hover .head {
+    background-color: #112030;
+    text-align: center;
+    line-height: 20px;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #CEF6FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/***Friends***/
+#friends .user_info,
+#friends .user_links {
+    width: 30%;
+}
+
+#friends .item_links {
+    width: 50%;
+}
+
+#friends .user_info li,
+#friends .user_links li,
+#friends .item_links li,
+#friends .comment_tr li {
+    list-style-type: none;
+    padding-bottom: 3px;
+}
+
+#friends .item_links li {
+    padding-left: 25px;
+}
+
+#friends li.inventory_link {
+    background: url("images/icons/icon_standard.png") no-repeat left center;
+}
+
+#friends li.trade_link {
+    background: url("images/icons/icon_trading_card.png") no-repeat left center;
+}
+
+#friends li.tip_link {
+    background: url("images/icons/coins_add_small.png") no-repeat left center;
+}
+
+#friends .user_info .online {
+    color: #C7EB35;
+}
+
+#friends .comment_input {
+    width: 90%;
+}
+
+#friends .remove_friend {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url("images/crossn.png") no-repeat left center;
+}
+
+/****Image Gallery****/
+.profile .box_art_gallery .gallery {
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.profile .box_art_gallery .gallery_slot {
+    overflow: hidden;
+}
+
+.profile .box_art_gallery .gallery_main_slot {
+    float: left;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+.profile .box_art_gallery .gallery_row {
+    padding: 0;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-height: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.profile .box_art_gallery .gallery_small_slot {
+    display: inline-block;
+    max-height: 150px;
+    margin: 1px;
+}
+
+.profile .box_art_gallery .large_row .gallery_small_slot {
+    width: 23%;
+}
+
+.profile .box_art_gallery .small_row .gallery_small_slot {
+    width: 24%;
+    margin: 3px;
+}
+
+.profile .gallery_small_slot img {
+    display: block;
+}
+
+.profile .box_art_gallery .gallery_small_slot.selected {
+    border: 1px solid white;
+}

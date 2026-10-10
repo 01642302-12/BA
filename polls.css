@@ -1,0 +1,31 @@
+#left_poll {
+    width: 5px;
+    height: 11px;
+    background: url('images/PollLeft.png') no-repeat center center;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#center_poll {
+    height: 11px;
+    background: url('images/PollBar.png') repeat;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#right_poll {
+    width: 5px;
+    height: 11px;
+    background: url('images/PollRight.png') no-repeat center center;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#polcont img {
+    width: auto;
+    border: none;
+    margin: 0;
+}

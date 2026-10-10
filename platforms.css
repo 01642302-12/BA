@@ -1,0 +1,27 @@
+/* ************************* */
+/* ********PLATFORMS******** */
+/* ************************* */
+
+#artist #content table {
+    background: url('images/companioncube2.png');
+}
+
+#artist #content table tr {
+    background-color: rgba(24, 59, 88, 0.85);
+    border-bottom: 1px #003 solid;
+}
+
+#artist #content .box table td {
+    background-color: transparent;
+    border: none;
+}
+
+#artist #content table tr.rowa {
+    background-color: rgba(27, 47, 63, 0.85);
+    border: none;
+}
+
+#artist #content table tr.rowb {
+    background-color: rgba(24, 59, 88, 0.85);
+    border: none;
+}

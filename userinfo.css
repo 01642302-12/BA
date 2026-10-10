@@ -1,0 +1,273 @@
+/* ************************** */
+/* ********User Bar********** */
+/* ************************** */
+
+#userinfo {
+    background: url("images/UserBG.png") no-repeat scroll 0 0 transparent;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 318px;
+    width: 976px;
+    height: 87px;
+}
+
+#userinfo_username li.brackets { /* Right-hand side (user name, donate, etc.)*/
+    margin-left: 3px;
+}
+
+#userinfo #userinfo_username {
+    float: right;
+    list-style: none;
+    width: 220px;
+    margin-top: 10px;
+}
+
+#userinfo #userinfo_username li {
+    float: left;
+}
+
+#userinfo #userinfo_username .welcome {
+    color: var(--lightBlue);
+    clear: both;
+    margin-right: 10px;
+}
+
+#userinfo #userinfo_username .donateico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -158px;
+    padding-left: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#userinfo #userinfo_username .donateico a:link {
+    color: var(--lightBlue);
+    line-height: 16px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#userinfo #userinfo_username .donateico a:hover {
+    color: #a1d6f1;
+    text-decoration: underline;
+}
+
+#userinfo #userinfo_username .username {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+#userinfo #userinfo_username .username:hover {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+#userinfo .brackets a {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+#userinfo .brackets a:hover {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+#userinfo #userinfo_stats { /*Left-hand side (Stats box)*/
+    float: left;
+    margin: 15px 30px 0 20px;
+    display: block;
+    width: 300px;
+}
+
+#userinfo #userinfo_stats li {
+    height: 15px;
+    list-style: none outside none;
+    float: left;
+}
+
+#stats_seeding {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+    width: 160px;
+}
+
+#stats_leeching {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+    clear: right;
+}
+
+#stats_gold {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    width: 160px;
+}
+
+#stats_ratio, #stats_share_score {
+    color: var(--lightBlue);
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+
+#stats_share_score {
+    margin-left: 10px;
+}
+
+#stats_hnr {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+}
+
+#online_irc {
+    padding-left: 10px;
+}
+
+#connectable {
+    color: var(--lightBlue);
+    font-family: Arial, sans-serif;
+    clear: left;
+    width: 160px;
+}
+
+#stats_irc {
+    color: var(--lime);
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+
+#stats_seeding a:link, #stats_leeching a:link {
+    color: var(--lightBlue);
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+#stats_seeding a:hover, #stats_leeching a:hover {
+    color: #a1d6f1;
+    text-decoration: underline;
+}
+
+#userinfo #userinfo_minor { /*Middle links*/
+    display: inline-block;
+    list-style: none outside none;
+    width: 400px;
+    margin-top: 10px;
+}
+
+#userinfo #userinfo_minor li {
+    display: inline;
+}
+
+#userinfo #userinfo_minor li a:link, #userinfo #userinfo_minor li a:visited {
+    display: inline-block;
+    margin-bottom: 8px;
+    line-height: 16px;
+    font-family: Arial, Helvetica, Sans-Serif, sans-serif;
+    border-bottom: none;
+    width: 100px;
+}
+
+#userinfo #userinfo_minor li a:hover {
+    color: #a1d6f1;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#userinfo #userinfo_minor .inboxico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .torrentsico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -118px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .bookmarksico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -58px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .notificationsico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -179px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .postsico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -98px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .commentsico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -36px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .friendsico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -138px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .uploadico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -78px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .inviteico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -18px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .staffico {
+    background-image: url('images/NavUserIcons.png');
+    background-repeat: no-repeat;
+    background-position: 0px -297px;
+    padding-left: 20px;
+}
+
+#userinfo #userinfo_minor .inventoryico {
+    background-image: url('images/inventory.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 16px 16px;
+}
+
+#userinfo #userinfo_minor .top10ico {
+    background-image: url('images/highscores.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 16px 16px;
+}
+
+#userinfo #userinfo_minor .deltornotifsico {
+    background-image: url('images/deleted_torrents.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 16px 16px;
+}

@@ -1,0 +1,242 @@
+#header {
+    width: 100%;
+    /*height: 420px;*/
+    background: url('images/HeaderBG.png') repeat-x;
+}
+
+#header .sub {
+    height: 1px;
+    left: 50px;
+    overflow: visible;
+    position: relative;
+    top: 20px;
+    visibility: hidden;
+    width: 61%;
+    z-index: 999;
+}
+
+#header .sub span {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 50% transparent;
+    border: 1px solid #003;
+    display: block;
+    padding: 5px;
+}
+
+#header .sub a {
+    color: var(--white);
+}
+
+strong.newnoti {
+    color: var(--lime);
+}
+
+#header #alerts {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 984px;
+    text-align: center;
+    top: 293px;
+    color: var(--white);
+}
+
+#header #alerts .alertbar a {
+    color: #CCC;
+    text-decoration: underline;
+}
+
+#announcement {
+    position: absolute;
+    padding: 1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 976px;
+    text-align: center;
+    top: 198px;
+    color: #FFF;
+    background-color: var(--announcement-bg-color);
+    border: 1px solid var(--announcement-border-color);
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px var(--black);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.global_buffs {
+    margin-top: 33px;
+    font-family: var(--text-family), serif;
+    left: 50%;
+    margin-left: -500px;
+}
+
+.clan_trophy {
+    margin-top: 85px;
+    right: 51.5%;
+    margin-right: -500px;
+}
+
+.clan_trophy img {
+    height: 150px;
+}
+
+.fa.fa-fl-pots {
+    font-family: var(--text-family), serif;
+}
+
+/* *************************** */
+/* ********Search Bars******** */
+/* *************************** */
+
+#header #searchbars ul { /*Width, etc. of overall search bar*/
+    /*width: 1000px;*/
+    margin: 0 auto;
+    padding-top: 4px;
+    text-align: center;
+    list-style: none;
+}
+
+#header #searchbars input {
+    background-image: url("images/SearchBG.png");
+    border-style: hidden;
+    border-width: 0;
+    color: #CEF6FF;
+    height: 21px;
+    line-height: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 148px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#header #searchbars input:hover {
+    box-shadow: 0 0 5px #06c;
+}
+
+#header #searchbars ul li { /*Drop down of search menu*/
+    display: inline-block;
+    position: relative;
+}
+
+#header #searchbars ul li ul {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 148px;
+    border: 1px solid #596976;
+    z-index: 1000;
+}
+
+#header #searchbars ul li ul li {
+    display: block;
+    background-color: #1b2e3f;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #596976;
+}
+
+#header #searchbars ul li ul li:hover { /*Hover of drop down search menu*/
+    display: block;
+    background-color: #314f6d;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #596976;
+}
+
+
+/* ************************** */
+/* *******Site Logo********** */
+/* ************************** */
+
+#logo {
+    /*width: 964px;*/
+    /*height: 206px;*/
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url('images/Logo.png') no-repeat -43px;
+}
+
+#logo a {
+    /*width: 960px;*/
+    /*height: 203px;*/
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 1px;
+    left: 0;
+    border-style: hidden;
+}
+
+/* ************************** */
+/* ******Main Menu Bar******* */
+/* ************************** */
+
+#menu { /*Overall format of menubar*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 237px;
+    /*width: 100%;*/
+    /*width: 984px;*/
+}
+
+#menu ul {
+    background-image: url('images/NavULBG.png');
+    height: 66px;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li div {
+    display: none;
+}
+
+#menu ul .last a { /*Hides last divider*/
+    background: url('images/NavLILast.png') no-repeat scroll right bottom transparent;
+}
+
+#menu ul .last a:hover {
+    background: url('images/NavLILast.png') no-repeat scroll right top transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#menu ul li a { /*Content and hover look*/
+    background: url('images/NavLI.png') no-repeat scroll right bottom transparent;
+    font-family: Helvetica, Arial, Sans-serif, serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: none;
+    display: inline-block;
+    height: 48px;
+    line-height: 57px;
+    width: 94px;
+}
+
+#menu ul li a:hover {
+    background: url('images/NavLI.png') no-repeat scroll right top transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,55 @@
+/* ********************** */
+/* **********IRC********* */
+/* ********************** */
+
+#chat #wrapper #content {
+    background-color: rgba(24, 59, 88, 0.85);;
+    color: #fff;
+}
+
+#chat #wrapper #content .thin .box {
+    background-color: #2c4860;
+    margin: 0 20px;
+    border: solid #036 1px;
+}
+
+#chat #content blockquote {
+    background-color: #426d93;
+}
+
+#chat #content .thin {
+    margin-bottom: 20px;
+}
+
+#chat #content .thin .pad ul {
+    padding: 10px;
+}
+
+#chat #content {
+    padding-bottom: 10px;
+}
+
+#chat #wrapper #content .thin .box a {
+    color: #c7eb16;
+    text-decoration: none;
+}
+
+#chat #wrapper #content .thin .box a:hover {
+    color: #c7eb16;
+    text-decoration: underline;
+}
+
+#loginpaste {
+    width: 925px;
+    margin: 0 auto;
+}
+
+#qwebcontainer {
+    width: 925px;
+    margin: 0 auto;
+}
+
+#qwebframe {
+    width: 925px;
+    height: 620px;
+}

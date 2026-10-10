@@ -1,0 +1,1839 @@
+/* ************************** */
+/* *****Torrents Browse****** */
+/* ************************** */
+
+#torrent_table {
+    background: url("images/mariobkg2.png") repeat-y scroll top center;
+}
+
+/*Browse page background*/
+
+tr.group {
+    background-color: #1B2F3F99;
+}
+
+/*Game groups*/
+tr.group:hover {
+    background-color: #183B58CC;
+}
+
+.torrent {
+    background-color: #1B2F3F99;
+}
+
+/*Non-game groups*/
+.torrent:hover {
+    background: #183B58CC;
+}
+
+.torrent_table tr.group_torrent {
+    background-color: #183B5899;
+}
+
+/*Open groups*/
+.torrent_table tr.group_torrent:hover {
+    background-color: #1B2F3FCC;
+}
+
+#torrents #content .thin table { /*Generic torrents background img*/
+    background: url('images/companioncube2.png') repeat-y scroll bottom right;
+    border: 1px solid #036;
+}
+
+#torrents #content .thin table tr {
+    background-color: #1B2F3FD9;
+}
+
+/*#torrents #content .thin table tr:hover{background-color: #183B58D9;}*/
+#torrents #content .thin table td {
+    border-left: none;
+    border-right: none
+}
+
+#torrents #content .thin table td.label {
+    background-color: #183B58D9;
+}
+
+#torrents #autocomplete { /* Browse page auto complete */
+    position: absolute;
+    margin-top: -83px;
+    width: 316px;
+}
+
+#torrents #torrentsbrowsecomplete {
+    position: relative;
+    left: 252px;
+    display: block;
+    width: 100%;
+    border: 1px solid #596976;
+    -webkit-box-shadow: 4px 4px 13px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 13px -1px rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+#torrents #torrentsbrowsecomplete li {
+    display: block;
+    background-color: #1b2e3f;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: left;
+    line-height: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #596976;
+}
+
+#torrents #torrentsbrowsecomplete li:hover { /*Hover of drop down search menu*/
+    display: block;
+    background-color: #314f6d;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: left;
+    line-height: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #596976;
+}
+
+.torrent_table a.addbookmark { /*Bookmark icon*/
+    background-image: url("images/NavUserIcons.png");
+    background-position: 0 -259px;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-bottom: 3px;
+    display: block;
+    text-indent: -1000px;
+    padding-left: 16px;
+}
+
+.torrent_table a.removebookmark {
+    background-image: url("images/NavUserIcons.png");
+    background-position: 0 -281px;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-bottom: 3px;
+    display: block;
+    text-indent: -1000px;
+    padding-left: 16px;
+}
+
+.torrent_table a.addbookmark:hover, .torrent_table a.removebookmark:hover {
+    border: none !important;
+}
+
+.rating_container {
+    display: inline-block;
+    padding: 1px 4px;
+    margin: 2px 3px 0 4px;
+    background-color: #426D93;
+}
+
+.tags {
+    margin-left: 4px;
+    font-style: italic;
+    font-size: 9px;
+}
+
+#taglist a, .tags a {
+    font-weight: normal !important;
+    color: #ccc
+}
+
+#taglist a:hover, .tags a:hover {
+    color: #c7d6f1
+}
+
+#taglist td {
+    border: 0
+}
+
+#torrents #content .thin table tr.owner, #torrents #content .thin table tr.owner:hover {
+    background-color: #183B58D9;
+}
+
+#torrents #content .sidebar .box_albumart p {
+    padding: 0;
+    margin: 0;
+}
+
+.edition_info {
+    color: white;
+    background-color: #183B58D9;
+}
+
+tbody .r08, tbody .r09 {
+    font-weight: bold;
+}
+
+tbody .r10, tbody .r20, tbody .r50, tbody .r99 {
+    color: #bcd68c;
+}
+
+#torrent_table .colhead .sign {
+    padding: 0 8px;
+}
+
+#torrent_table #upvote {
+    color: #86D406;
+    font-weight: bold;
+}
+
+#torrent_table #downvote {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+#torrents blockquote {
+    background-color: #426382;
+    color: #fff;
+}
+
+#torrents blockquote ul, #wiki blockquote ul {
+    padding-left: 20px;
+}
+
+#torrents .body ul {
+    margin-left: 20px;
+}
+
+#torrents #content .main_column .forum_post td.body {
+    color: #fff;
+}
+
+#torrents .main_column .forum_post td.avatar {
+    min-height: 150px;
+}
+
+#torrents .main_column .forum_post .body .content {
+    min-height: 108px;
+}
+
+#torrents .forum_post .comment_rating {
+    width: 100%;
+    min-height: 25px;
+    margin-top: 5px;
+    padding: 5px 0 2px 3px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 1px solid #003;
+    opacity: 0.6;
+}
+
+#torrents .forum_post .comment_rating .flleft {
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#torrents .forum_post .comment_rating img {
+    height: 25px;
+    width: 25px;
+}
+
+#torrents .forum_post .comment_rating p {
+    font-size: 0.8em;
+}
+
+#torrents #content .box p {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#torrents .main_column .body {
+    margin: 0 20px;
+    border: 1px dotted #E1ECF1;
+    padding: 1.5em;
+    color: white;
+    font-family: Verdana, Sans-serif, sans-serif;
+}
+
+#torrents .main_column .body .spoilerbox {
+    color: #CCC;
+}
+
+#torrents #content .noticon {
+    height: 28px;
+    width: 28px;
+    text-align: center;
+}
+
+#torrents #content .checked {
+    background: url('images/checkmark.png') no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+#torrents #content .notchecked {
+    background: url('images/crossn.png') no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+#upload #upload_table table.covers {
+    border: hidden;
+}
+
+#upload #upload_table table.covers td {
+    text-align: center;
+}
+
+#torrents .filter_torrents {
+    width: 75%;
+    margin: 0 auto
+}
+
+#torrents .filter_torrents .cat_list label {
+    position: relative;
+    top: -2px
+}
+
+#torrents #content .filter_torrents table {
+    margin-bottom: 6px;
+}
+
+#torrents #content .filter_torrents #taglist {
+    margin-bottom: -3px;
+}
+
+#torrents #content .filter_torrents #taglist td {
+    border: #aaa dotted 1px;
+}
+
+#torrents #content .filter_torrents table tr {
+    background-color: #426d93;
+}
+
+#torrents #content .filter_torrents table tr td.label {
+    background-color: #426d93;
+}
+
+#torrents #content .filter_torrents table {
+    border: solid black;
+}
+
+#torrents #content .filter_torrents table td {
+    border: solid #2c4b66 1px;
+}
+
+#torrents #content .filter_torrents .submit {
+    text-align: right;
+}
+
+#torrents #content .filter_torrents .submit span {
+    position: relative;
+    top: 6px;
+}
+
+/*#torrents .group_torrent td strong+strong{color:#F00}
+#torrents .filter_torrents td{border:0}
+#torrents .filter_torrents .cat_list .label{border-right:0}
+#torrents .filter_torrents .cat_list{margin:10px 0;}
+#torrents .filter_torrents #taglist{border:0}
+#torrents .filter_torrents table{background-color:transparent}
+#torrents .filter_torrents h3{margin-top:0}
+#torrents .filter_torrents #taglist td{padding:2px 5px}
+#torrents .filter_torrents .inputtext{width:150px}
+#torrents .filter_torrents .smallest{width:80px}
+#torrents .filter_torrents table td.label{text-align:right; padding:0 5px 0 0}
+#torrents .filter_torrents a#swaptags{font-weight:bold; text-align:center; display:block; padding:5px 0}
+#torrents .filter_torrents .submit{padding:5px 0 0 0; font-weight:bold; text-align:right; direction:rtl}*/
+
+.torrent a {
+    font-weight: bold
+}
+
+.linkbox {
+    text-align: center;
+    padding: 0 0 8px;
+    margin: 8px 0 8px 0;
+}
+
+.linkbox a {
+    padding: 0 3px;
+    border-style: hidden;
+}
+
+.show_torrents {
+    background-repeat: no-repeat;
+    background-position: 0 -1093px;
+    width: 30px;
+    height: 30px
+}
+
+.hide_torrents {
+    background-repeat: no-repeat;
+    background-position: 0 -1033px;
+    width: 30px;
+    height: 30px
+}
+
+.group {
+    font-weight: bold
+}
+
+.group td.nobr {
+    font-weight: normal;
+    color: #fff;
+}
+
+#torrent_table {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%
+}
+
+#torrent_table a img {
+    border: 0
+}
+
+#torrent_table td {
+    margin: 0;
+    padding: 3px
+}
+
+#torrent_table tr.colhead td {
+    font-weight: bold
+}
+
+.torrent_table .pad td {
+    padding: 20px !important;
+    border: 1px solid #ACBFA9 !important
+}
+
+.torrent_table .pad td td {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    background: none;
+    padding: 5px !important
+}
+
+.torrent_table tr.group a, #torrent_table tr.group a, #torrent_table tr.group_torrent a, #torrent_table tr.group_torrent a {
+    border-bottom: hidden;
+}
+
+.torrent_table tr.group_torrent td span.torrent_info_tags, #torrent_table tr.group_torrent td span.torrent_info_tags {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.torrent_table tr.group a:hover, #torrent_table tr.group a:hover, #torrent_table tr.group_torrent a:hover, #torrent_table tr.group_torrent a:hover {
+    border-bottom: dotted #444 1px;
+    color: #c7d6f1;
+    text-decoration: underline;
+}
+
+.torrent_table tr.group a:hover.show_torrents_link, #torrent_table tr.group a:hover.show_torrents_link, #torrent_table tr.group_torrent a:hover.show_torrents_link, #torrent_table tr.group_torrent a:hover.show_torrents_link {
+    border-bottom: hidden;
+}
+
+.show_torrents_link {
+    border: medium none;
+    display: block;
+    height: 28px;
+    width: 28px;
+    background-image: url('images/go_last_read.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.torrent_table tr.group_torrent td span, #torrent_table tr.group_torrent td span {
+    margin-left: 18px;
+    color: #fff;
+}
+
+.torrent_table tr.group_torrent a, #torrent_table tr.group_torrent a {
+    color: white;
+    font-weight: normal
+}
+
+#torrents #content .thin .main_column .torrent_table {
+    margin-top: 20px;
+}
+
+#torrents #content .thin .main_column .torrent_table .group_torrent span {
+    margin: 0;
+}
+
+#torrents #content .new_status {
+    background-image: url("images/icons/new.png");
+    display: inline-block;
+    margin: auto 1px;
+    width: 25px;
+    height: 9px;
+}
+
+
+#torrents #content .center .box form div input[type="text"],
+#wiki #content .center .box form div input[type="text"],
+#artist #content .center .box form div input[type="text"] {
+    width: 500px;
+    margin-bottom: 10px
+}
+
+#torrents #content .center .box form div textarea, #wiki #content .center .box form div textarea, #upload textarea#album_desc, #upload textarea#release_desc, #forums #content .thin .box form .box textarea, #forums #quickpost {
+    height: 200px;
+    background-color: #d4e7ef;
+    border: solid #81b8ef 3px;
+    font-family: Arial, sans-serif;
+}
+
+#torrents #content .center .box form div,
+#wiki #content .center .box form div,
+#artist #content .center .box form div {
+    text-align: left !important
+}
+
+.sub {
+    height: 1px;
+    left: 60px;
+    overflow: visible;
+    position: relative;
+    top: 27px;
+    visibility: hidden;
+    width: 15%;
+}
+
+.sub span {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 50% transparent;
+    border: 1px solid #003;
+    display: block;
+    padding: 5px;
+}
+
+.sub a {
+    color: #fff;
+}
+
+#torrents #content .main_column .body .screenshots img {
+    width: 150px;
+    margin: 5px;
+    border: white 1px solid;
+    vertical-align: top;
+}
+
+#grouplinks {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#grouplinks td {
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#linkedgroup {
+    opacity: 0.4;
+    filter: drop-shadow(2px 2px 15px black);
+    -webkit-filter: drop-shadow(2px 2px 15px black);
+}
+
+#linkedgroup:hover {
+    opacity: 1;
+    filter: drop-shadow(1px 1px 5px #80bf6d);
+    -webkit-filter: drop-shadow(1px 1px 5px #80bf6d);
+}
+
+#curlinkedgroup {
+    filter: drop-shadow(2px 2px 15px black);
+    -webkit-filter: drop-shadow(2px 2px 15px black);
+}
+
+.box_game_info .body {
+    padding-top: 6px;
+    padding-bottom: 6px !important;
+}
+
+.box_pack .body {
+    padding-top: 6px;
+    padding-bottom: 6px !important;
+}
+
+.box_series .body ul {
+    margin-left: 5px !important;
+}
+
+.box_series .body li {
+    padding-bottom: 4px;
+}
+
+.box_series .body {
+    padding-top: 6px;
+    padding-bottom: -6px;
+    margin-bottom: -14px;
+}
+
+/* Torrent Colouring */
+
+#color_leeching, #color_leeching .torrent_info_tags, #color_leeching a {
+    color: #167B0E !important;
+}
+
+#color_seeding, #color_seeding .torrent_info_tags, #color_seeding a {
+    color: #E2F700 !important;
+}
+
+#color_uploaded, #color_uploaded .torrent_info_tags, #color_uploaded a {
+    color: #ae83cc !important;
+}
+
+#color_snatched, #color_snatched .torrent_info_tags, #color_snatched a {
+    color: #F00009 !important;
+}
+
+#color_downloaded, #color_downloaded .torrent_info_tags, #color_downloaded a {
+    color: #ff4100 !important;
+}
+
+
+/*  Web Links  */
+#weblinks_edit .weblinks {
+    width: 400px;
+    height: 15px;
+}
+
+.sidebar .box {
+    float: left;
+}
+
+.sidebar .box #weblinksdiv a {
+    float: left;
+    padding: 5px;
+}
+
+.weblinks {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+
+.Amazon,
+.BoardGameGeek,
+.DriveThruRPG,
+.EpicGames,
+.GameFAQs,
+.GamesWebsite,
+.Giantbomb,
+.Goodreads,
+.GOG,
+.GooglePlay,
+.GooglePlayBooks,
+.HowLongToBeat,
+.HumbleBundle,
+.Itch,
+.iTunes,
+.MobyGames,
+.NexusMods,
+.Nintendo,
+.Origin,
+.Ouya,
+.PSN,
+.RPGGeek,
+.RPGnet,
+.Steam,
+.Wikipedia,
+.XboxStore,
+.PCGamingWiki,
+.Bandcamp,
+.Discogs,
+.MusicBrainz,
+.VGMdb {
+    background-size: contain;
+}
+
+
+.Amazon {
+    background-image: url("images/weblinks/Amazon.png");
+}
+
+.BoardGameGeek {
+    background-image: url("images/weblinks/BoardGameGeek.png");
+}
+
+.DriveThruRPG {
+    background-image: url("images/weblinks/DriveThruRPG.png");
+}
+
+.EpicGames {
+    background-image: url("images/weblinks/EpicGames.png");
+}
+
+.GameFAQs {
+    background-image: url("images/weblinks/GameFAQs.png");
+}
+
+.GamesWebsite {
+    background-image: url("images/weblinks/GamesWebsite.png");
+}
+
+.Giantbomb {
+    background-image: url("images/weblinks/Giantbomb.png");
+}
+
+.Goodreads {
+    background-image: url("images/weblinks/Goodreads.png");
+}
+
+.GOG {
+    background-image: url("images/weblinks/GOG.png");
+}
+
+.GooglePlay {
+    background-image: url("images/weblinks/GooglePlay.png");
+}
+
+.GooglePlayBooks {
+    background-image: url("images/weblinks/GooglePlayBooks.png");
+}
+
+.HowLongToBeat {
+    background-image: url("images/weblinks/HowLongToBeat.png");
+}
+
+.HumbleBundle {
+    background-image: url("images/weblinks/HumbleBundle.png");
+}
+
+.Itch {
+    background-image: url("images/weblinks/Itch.png");
+}
+
+.iTunes {
+    background-image: url("images/weblinks/iTunes.png");
+}
+
+.MobyGames {
+    background-image: url("images/weblinks/MobyGames.png");
+}
+
+.NexusMods {
+    background-image: url("images/weblinks/NexusMods.png");
+}
+
+.Nintendo {
+    background-image: url("images/weblinks/Nintendo.png");
+}
+
+.Origin {
+    background-image: url("images/weblinks/Origin.png");
+}
+
+.Ouya {
+    background-image: url("images/weblinks/Ouya.png");
+}
+
+.PCGamingWiki {
+    background-image: url("images/weblinks/PCGamingWiki.png");
+}
+
+.PSN {
+    background-image: url("images/weblinks/PSN.png");
+}
+
+.RPGGeek {
+    background-image: url("images/weblinks/RPGGeek.png");
+}
+
+.RPGnet {
+    background-image: url("images/weblinks/RPGnet.png");
+}
+
+.Steam {
+    background-image: url("images/weblinks/Steam.png");
+}
+
+.VNDB {
+    background-image: url("images/weblinks/VNDB.png");
+}
+
+.Wikipedia {
+    background-image: url("images/weblinks/Wikipedia.png");
+}
+
+.XboxStore {
+    background-image: url("images/weblinks/XboxStore.png");
+}
+
+.Bandcamp {
+    background-image: url("images/weblinks/Bandcamp.png");
+}
+
+.Discogs {
+    background-image: url("images/weblinks/Discogs.png");
+}
+
+.MusicBrainz {
+    background-image: url("images/weblinks/MusicBrainz.png");
+}
+
+.VGMdb {
+    background-image: url("images/weblinks/VGMdb.png");
+}
+
+/* Ratings and Reviews */
+.box .body.addtagsdiv, .body.userratingdiv {
+    padding-right: 6px;
+}
+
+#torrents #content .box .vote {
+    width: 40px !important;
+    border: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#torrents #content .box img.desaturate {
+    -webkit-filter: grayscale(95%);
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+
+#torrents #content .box #thumbsup {
+    color: #62C746;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#torrents #content .box #thumbsdown {
+    color: #CC0000;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#clickable:hover {
+    cursor: pointer;
+}
+
+#torrents #content .userratingdiv table td {
+    background: #264059;
+    border: 0 #264059 solid !important;
+}
+
+#torrents #content .userratingdiv table {
+    border: 0 solid #036 !important;
+}
+
+#torrents #content .userratingdiv #review {
+    background-color: #426382;
+    color: white;
+    border: solid 1px #233c54;
+    border-radius: 4px;
+    width: 95%;
+    padding: 5px;
+    resize: none;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 2px 0 #000;
+    transition: box-shadow 0.3s;
+}
+
+#torrents #content .userratingdiv #review:focus {
+    box-shadow: inset 1px 1px 2px 0 #2b4054;
+}
+
+#torrents #content .userratingdiv #reviewrow input {
+    padding: 4px;
+    bottom: 20px;
+    right: 16px;
+}
+
+#torrents #content .userratingdiv #reviewrow input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+#torrents #content .userratingdiv #review::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#torrents #content .userratingdiv #review:-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#torrents #content .userratingdiv #review::-moz-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#torrents #content .userratingdiv #review:-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#torrents #content .userratingdiv table td {
+    text-align: center;
+}
+
+#torrents #content .thin .userreviews table {
+    width: 100%;
+    border: none;
+    background: none;
+    margin-bottom: -2px;
+}
+
+#torrents #content .thin .userreviews tr {
+    background-color: transparent !important;
+}
+
+#torrents #content .thin .userreviews td {
+    font-size: 1.4em;
+    border: none;
+}
+
+#torrents #content .thin .userreviews table td {
+    vertical-align: top;
+}
+
+#torrents #content .thin .userreviews #usersreviewimage {
+    width: 20px;
+}
+
+#torrents #content .thin .userreviews #usersreviewimage img {
+    margin-top: 2px;
+    width: 27px;
+}
+
+#torrents #content .thin table #reviewdate {
+    font-size: 0.6em;
+    font-style: italic;
+}
+
+#torrents #content .thin #allreviewslink {
+    font-size: 0.8em;
+    font-style: italic;
+    text-decoration: underline;
+    float: right;
+    padding-top: 10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+#allreviews {
+    margin-left: 12px;
+}
+
+#allreviews .box {
+    margin-top: -8px;
+}
+
+#allreviews table {
+    width: 95%;
+    margin: 8px auto;
+    background: transparent url('images/companioncube2.png') repeat scroll 0 0 !important;
+    border: none;
+}
+
+#allreviews tr {
+    border: none;
+}
+
+#allreviews td {
+    font-size: 1.6em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    border: none;
+    vertical-align: top;
+    line-height: 150%;
+}
+
+#allreviews #deletereview {
+    padding-left: 5px;
+    font-size: 0.8em;
+}
+
+#allreviews #usersreviewimage img {
+    width: 20px;
+    margin-top: 5px;
+}
+
+#allreviews table #reviewdate {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+#torrent_link .label {
+    width: 7%;
+}
+
+#torrent_link #specialed {
+    margin-left: 20px;
+}
+
+.torrent_history td {
+    max-width: 250px;
+}
+
+
+/****Similar Games*****/
+.box.similar_div {
+    padding-bottom: 10px;
+}
+
+.similar_div .head .flright {
+    margin-right: 10px;
+}
+
+.similar .similar_group {
+    width: 170px;
+}
+
+.similar ul {
+    list-style: none;
+    max-height: 270px;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.similar li.similar_group {
+    display: block;
+    width: 24%;
+    margin: 0 .5% 5px;
+    padding: 0 !important;
+    float: left;
+}
+
+.similar .similar_group > a img {
+    width: 100%;
+    height: 200px;
+    margin: 1px 0;
+    padding: 0 1px;
+}
+
+.similar .similar_votes {
+    width: 102%;
+    float: left;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 0 0 5px 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.similar .similar_votes a {
+    margin-right: 5px;
+}
+
+.similar .similar_votes a:hover {
+    text-decoration: none;
+    filter: drop-shadow(0px 0 3px #999);
+}
+
+.main_column .similar img[src*="leechers"] {
+    margin-top: 0;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.main_column .similar img[src*="seeders"] {
+    height: 17px;
+}
+
+.similar li#suggested_header {
+    clear: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    height: 30px;
+}
+
+/* ****************************** */
+/* ********CATEGORY ICONS******** */
+/* ****************************** */
+
+.amigacd32 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/amigacd32.png')
+}
+
+.amstradcpc {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/amstradcpc.png')
+}
+
+.android {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/android.png')
+}
+
+.apps {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/apps.png')
+}
+
+.atari2600 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/atari2600.png')
+}
+
+.atari5200 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/atari5200.png')
+}
+
+.atari7800 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/atari7800.png')
+}
+
+.atarijaguar {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/atarijaguar.png')
+}
+
+.atarilynx {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/atarilynx.png')
+}
+
+.bandaiwonderswancolor {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/bandaiwonderswancolor.png')
+}
+
+.boardgame {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/boardgame.png')
+}
+
+.cardgame {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/cardgame.png')
+}
+
+.colecovision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/colecovision.png')
+}
+
+.dos {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/dos.png')
+}
+
+.dreamcast {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/dreamcast.png')
+}
+
+.dvd {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/dvd.png')
+}
+
+.ebook {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/ebook.png')
+}
+
+.ex-bgcollections {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/ex-bgcollections.png')
+}
+
+.ex-bgfullsets {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/ex-bgfullsets.png')
+}
+
+.ex-bggoldens {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/ex-bggoldens.png')
+}
+
+.fairchildchannelf {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/fairchildchannelf.png')
+}
+
+.gameboy {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gameboy.png')
+}
+
+.gameboyadvance {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gameboyadvance.png')
+}
+
+.gameboycolor {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gameboycolor.png')
+}
+
+.gamegear {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gamegear.png')
+}
+
+.generalcomputervectrex {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/generalcomputervectrex.png')
+}
+
+.intellivision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/intellivision.png')
+}
+
+.interactivedvd {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/dvd.png')
+}
+
+.linux {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/linux.png')
+}
+
+.mac {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/mac.png')
+}
+
+.mastersystem {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/mastersystem.png')
+}
+
+.megadrive {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/megadrive.png')
+}
+
+.memotechmtx {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/memotechmtx.png')
+}
+
+.msx {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/msx.png')
+}
+
+.msx2 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/msx2.png')
+}
+
+.music {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/music.png')
+}
+
+.nes {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/nes.png')
+}
+
+.nintendo3ds {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/nintendo3ds.png')
+}
+
+.nintendo3dsvc {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/nintendo3dsVC.png')
+}
+
+.nintendo64 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/nintendo64.png')
+}
+
+.nintendods {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/nintendods.png')
+}
+
+.nintendogamecube {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/nintendogamecube.png')
+}
+
+.phonepda {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/phonepda.png')
+}
+
+.playstation1 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstation.png')
+}
+
+.playstation2 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstation2.png')
+}
+
+.playstation3 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstation3.png')
+}
+
+.psonpsp {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstationonpsp.png')
+}
+
+.psponps3 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/psponps3.png')
+}
+
+.playstation4 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstation4.png')
+}
+
+.playstationportable {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstationportable.png')
+}
+
+.playstationvita {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/playstationvita.png')
+}
+
+.milesgordonsamcoupe {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/samcoupe.png')
+}
+
+.saturn {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/saturn.png')
+}
+
+.snkneogeopocket {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/neogeopocket.png')
+}
+
+.snes {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/supernes.png')
+}
+
+.taitotypex {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/taitotypex.png')
+}
+
+.tandycolorcomputer {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/tandycolor.png')
+}
+
+.tangerineoric {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/tangerineoric.png')
+}
+
+.thomsonmo5 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/thomsonm05.png')
+}
+
+.turbografx {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/turbografx.png')
+}
+
+.vectrex {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/vectrex.png')
+}
+
+.virtualboy {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/virtualboy.png')
+}
+
+.watarasupervision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/watarasupervision.png')
+}
+
+.wii {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wii.png')
+}
+
+.wiivc {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wiivc.png')
+}
+
+.wiiware {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wiiware.png')
+}
+
+.windows {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/windows.png')
+}
+
+.windows95 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/windows95.png')
+}
+
+.windowsxp {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/windowsxp.png')
+}
+
+.wonderswan {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wonderswan.png')
+}
+
+.xbla {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/xbla.png')
+}
+
+.xbox {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/xbox.png')
+}
+
+.xbox360 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/xbox360.png')
+}
+
+.\33 do {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/3do.png')
+}
+
+.commodoreamiga {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/amiga.png')
+}
+
+.commodore64 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/commodore64.png')
+}
+
+.creativision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/creativision.png')
+}
+
+.game\.com {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gamecom.png')
+}
+
+.atarist {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/atarist.png')
+}
+
+.sg-1000 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/sg1000.png')
+}
+
+.philipsvideopac\+ {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/videopac.png')
+}
+
+.mattelintellivision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/intellivision.png')
+}
+
+.sharpx68000 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/sharp x86000.png')
+}
+
+.casiopv-1000 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/casiopv1000.png')
+}
+
+.casioloopy {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/loopy.png')
+}
+
+.pico {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/pico.png')
+}
+
+.emersonarcadia2001 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/arcadia2001.png')
+}
+
+.nokian-gage {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/n-gage.gif')
+}
+
+.necturbografx-16 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/turbografx16.png')
+}
+
+.necsupergrafx {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/supergfx.png')
+}
+
+.necpc-98 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/necpc-98.png')
+}
+
+.necpc-fx {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/pc-fx.png')
+}
+
+.magnavox-phillipsodyssey {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/magnavoxodyssey.png')
+}
+
+.rcastudioii {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/RCAII.png')
+}
+
+.hartunggamemaster {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gamemaster.png')
+}
+
+.gameparkgp32 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/gp32.png')
+}
+
+.funtechsuperacan {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/funtech.gif')
+}
+
+.epochsupercasettevision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/epoch.png')
+}
+
+.entexadventurevision {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/entex.png')
+}
+
+.pokemonmini {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/pokemonmini.gif')
+}
+
+.bandaiwonderswan {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wonderswan.png')
+}
+
+.miniaturewargames {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/miniaturewargames.png')
+}
+
+.penandpaperrpg {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/penandpaperRPGS.png')
+}
+
+.applebandaipippin {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/applebandaipippin.png')
+}
+
+.commodore128 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/commodore128.png')
+}
+
+.commodorevic-20 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/vic20.png')
+}
+
+.sharpx1 {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/sharpx1.png')
+}
+
+.newnintendo3ds {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/newnintendo3ds.png')
+}
+
+.v\.smile {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/vsmile.png')
+}
+
+.wiiu {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wiiu.png')
+}
+
+.wiiuvc {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/wiiuvc.png')
+}
+
+.zxspectrum {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/zxspectrum.png')
+}
+
+.retro-other {
+    height: 28px;
+    width: 28px;
+    background: url('images/caticons/retro-other.png')
+}
+
+.switch {
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    background: url('images/caticons/switch.png')
+}
+
+.zxspectrum {
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    background: url('images/caticons/zxspectrum.png')
+}
+
+td.cats_col {
+    width: 28px;
+    padding: 3px;
+}
+
+.cats_guides, .cats_ebooks {
+    background-image: url('images/caticons/ebook.png');
+    width: 28px;
+    height: 28px;
+}
+
+.cats_applications {
+    height: 28px;
+    width: 28px;
+    background-image: url('images/caticons/apps.png');
+}
+
+.cats_ost {
+    background-image: url('images/caticons/music.png');
+    width: 28px;
+    height: 28px;
+}
+
+.covers img {
+    max-height: 100px;
+    max-width: 110px;
+    margin: 8px;
+}
+
+.covers {
+    text-align: center;
+}
+
+/* ********************************** */
+/* **********REVIEW RATINGS********** */
+/* ********************************** */
+
+#reviews_table {
+    width: auto;
+    border: hidden;
+}
+
+.ratings {
+    height: 30px;
+    width: 100px;
+    margin: auto;
+    padding: 10px 0 10px 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ratings.meta {
+    background: URL("images/icons/metacritic.png") no-repeat transparent;
+}
+
+.ratings.ign {
+    background: URL("images/icons/ign.png") no-repeat transparent;
+}
+
+.ratings.cnet {
+    background: URL("images/icons/cnet.png") no-repeat transparent;
+}
+
+.ratings.gamespot {
+    background: URL("images/icons/gamespot.png") no-repeat transparent;
+}
+
+.ratings .green, .ratings .yellow, .ratings .red {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.ratings .green {
+    color: #62C746;
+}
+
+.ratings .yellow {
+    color: #FBB803;
+}
+
+.ratings .red {
+    color: #CC0000;
+}
+
+#torrents #torrent_comments .user_title,
+#requests .user_title,
+#forums .user_title {
+    display: block;
+    margin: 3px 0;
+}

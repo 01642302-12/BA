@@ -1,0 +1,92 @@
+/* ************************* */
+/* **********INBOX********** */
+/* ************************* */
+
+#quickpost {
+    width: 800px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+#inbox .box {
+    background-color: #264059;
+    color: #fff;
+    border: 1px #003 solid;
+}
+
+#inbox .box a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#inbox #searchbox {
+    padding: 2px;
+    background-color: #426d93;
+    border: solid 1px #003;
+    margin-bottom: 9px;
+    padding-left: 9px;
+}
+
+#inbox #messageform table {
+    margin-bottom: 9px;
+}
+
+#inbox .head {
+    padding: 4px;
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 50% transparent;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+#inbox .head a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#inbox .head a.username {
+    color: #fff;
+    font-weight: bold;
+}
+
+#inbox table.comp {
+    width: 100%;
+    border: 1px solid #003;
+}
+
+#inbox .comp h3 {
+    margin: auto 0;
+}
+
+#inbox .comp tr {
+    background: none;
+}
+
+#inbox .comp td {
+    border: none;
+}
+
+#inbox #quickpost {
+    width: 100%;
+}
+
+tr.unreadpm {
+    color: #C7EB00;
+    background-color: #1c3248;
+}
+
+#inbox .unreadpm a {
+    color: #C7EB00;
+}
+
+#inbox li {
+    background-position: left -250px;
+}
+
+#staffpm .comp td {
+    border: none;
+}
+
+#inbox .userclasses {
+    float: left;
+    width: 120px;
+}

@@ -1,0 +1,304 @@
+/* ************************* */
+/* *******INVITE TREE******* */
+/* ************************* */
+
+ul .invitetree {
+    margin: 0 0 0 25px;
+}
+
+.image_block {
+    width: 200px !important;
+}
+
+/* ************************* */
+/* *******TM Stats******* */
+/* ************************* */
+
+#platform_name {
+    text-decoration: underline;
+}
+
+/* ******************** */
+/* ****** Donate ****** */
+/* ******************** */
+
+#donate #donation_rewards ul {
+    margin-left: 45px;
+    font-size: 1.1em;
+}
+
+/* ******************************** */
+/* ********* Share Score ********** */
+/* ******************************** */
+
+#share_score .linkbox {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#share_score .colhead td {
+    text-align: center;
+}
+
+#share_score_breakdown td.label {
+    height: 5.5em;
+}
+
+#share_score .large_progress_bar .points {
+    font-weight: bold;
+    margin-left: 48.5%;
+    padding-top: 7px;
+    text-align: center;
+    z-index: 10;
+    color: black;
+    text-shadow: -1px -1px 0 #eee,
+    1px -1px 0 #eee,
+    -1px 1px 0 #eee,
+    1px 1px 0 #eee;
+}
+
+#share_score .large_progress_bar .five_marker {
+    top: -17px;
+    right: 0;
+}
+
+#share_score .large_progress_bar .fifteen_marker {
+    top: 32px;
+    right: 0;
+}
+
+#share_score .large_progress_bar .main_section {
+    border-right: 2px solid white;
+    left: 0;
+}
+
+#share_score .large_progress_bar .bonus_section {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(177, 232, 0, 0.2);
+    right: 0;
+}
+
+#seed_snatch_breakdown .large_progress_bar .main_bar {
+    background-color: rgb(123, 255, 158);
+    background-image: linear-gradient(to bottom, rgb(123, 255, 158), rgb(6, 162, 6));
+}
+
+#seed_time_breakdown .large_progress_bar .main_bar {
+    background-color: rgb(99, 228, 255);
+    background-image: linear-gradient(to bottom, rgb(99, 228, 255), rgb(0, 115, 150));
+}
+
+#seed_size_breakdown .large_progress_bar .main_bar {
+    background-color: #e8a3f0;
+    background-image: linear-gradient(to bottom, #e8a3f0, #ad23f4);
+}
+
+/****************************************************
+************ Long Term Seeding Tokens ***************
+****************************************************/
+#seedtime_tokens .large_progress_bar .last_drop {
+    top: 32px;
+    left: 0;
+}
+
+#seedtime_tokens .large_progress_bar .next_drop {
+    top: 32px;
+    right: 0;
+}
+
+#seedtime_tokens .large_progress_bar .points {
+    font-weight: bold;
+    margin-left: 48.5%;
+    padding-top: 7px;
+    text-align: center;
+    z-index: 10;
+    text-shadow: -1px -1px 0 #333,
+    1px -1px 0 #333,
+    -1px 1px 0 #333,
+    1px 1px 0 #333;
+}
+
+#seedtime_tokens .large_progress_bar.month8 .main_bar {
+    background-color: rgb(99, 228, 255);
+    background-image: linear-gradient(to bottom, rgb(99, 228, 255), rgb(0, 115, 150));
+}
+
+/**********************************************
+****************SKILL POINTS*******************
+**********************************************/
+.fight_skill_points div#content {
+    max-width: 940px !important;
+}
+
+#fight_skill_points_assign table {
+    max-width: 700px;
+    float: right;
+    font-size: 1.20rem;
+    border: none;
+    background: url('../images/trading_table.png') repeat 0 0;
+}
+
+#fight_skill_points_assign table td {
+    border: none;
+}
+
+#fight_skill_points_assign table tr.colhead {
+    height: 2.3em;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    box-shadow: -3px 3px 5px #000;
+    background: linear-gradient(rgba(104, 50, 0, 0.9), rgba(68, 33, 0, 0.6)),
+    url('../images/trading_table.png') repeat 0 0;
+}
+
+#user #content #fight_skill_points_assign table tr.colhead td {
+    background: none;
+}
+
+#fight_skill_points_assign table tr.colhead td:nth-child(1) {
+    width: 68px;
+}
+
+#fight_skill_points_assign table tr.colhead td:nth-child(2) {
+    width: 140px;
+}
+
+#fight_skill_points_assign table tr.colhead td:nth-child(3),
+#fight_skill_points_assign table tr.colhead td:nth-child(4),
+#fight_skill_points_assign table tr.colhead td:nth-child(5) {
+    text-align: center;
+    width: 90px;
+}
+
+#fight_skill_points_assign tr.skill_tr {
+    height: 60px;
+}
+
+#fight_skill_points_assign .achievement_image img {
+    padding-left: 15px;
+    filter: sepia(90%);
+}
+
+#fight_skill_points_assign .stat_label span {
+    font-size: 1.5rem;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    2px 2px 5px #000;
+}
+
+#fight_skill_points_assign .stat_label img {
+    float: right;
+    padding-top: 6px;
+}
+
+#fight_skill_points_assign .points {
+    font-size: 2.4rem;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    2px 2px 5px #000;
+}
+
+#fight_skill_points_assign .plus_sign {
+    font-size: 0.5em;
+    margin-left: -10px;
+    padding-right: 5px;
+}
+
+#fight_skill_points_assign .points.base_points {
+    color: #ffe3bf;
+}
+
+#fight_skill_points_assign .points.skill_points {
+    color: #ffca85;
+}
+
+#fight_skill_points_assign .points.total_points {
+    color: #ffa128;
+}
+
+#fight_skill_points_assign .buttons {
+    text-align: center;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button] {
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgb(255, 202, 133, 0.25);
+    box-shadow: 1px 1px 3px black;
+    height: 43px;
+    width: 35px;
+    padding: 5px;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button]:disabled {
+    color: lightgrey;
+    background: rgb(230, 230, 230, 0.2);
+    box-shadow: none;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button]:hover:disabled {
+    box-shadow: none;
+    border: 1px solid #999999;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button]:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button].stat_change_increase:hover:enabled {
+    color: #ace660;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button].stat_change_decrease {
+    margin-left: 8px;
+}
+
+#fight_skill_points_assign .skill_tr input[type=button].stat_change_decrease:hover:enabled {
+    color: #ff3c00;
+}
+
+#fight_skill_points_assign tr.submit_section {
+    border-top: 2px ridge rgba(255, 255, 255, 0.25);
+}
+
+#fight_skill_points_assign tr.submit_section span {
+    vertical-align: middle;
+}
+
+#fight_skill_points_assign tr.submit_section td {
+    padding: 15px;
+}
+
+#fight_skill_points_assign tr.submit_section #assignable_skill_points {
+    font-size: 2.2rem;
+}
+
+#fight_skill_points_assign #submit {
+    float: right;
+    margin-right: 5px;
+    width: 80px;
+    height: 3em;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 1px 1px 3px black;
+    background-color: rgba(255, 202, 133, 0.4);
+    background-image: none;
+}
+
+#fight_skill_points_assign #submit:disabled,
+#fight_skill_points_assign #submit:hover:disabled {
+    background-color: rgba(207, 198, 187, 0.4);
+    box-shadow: none;
+    border: 1px solid #999999;
+}
+
+#fight_skill_points_assign #submit:hover {
+    box-shadow: 3px 3px 3px black;
+    filter: brightness(95%);
+}

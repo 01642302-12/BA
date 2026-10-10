@@ -1,0 +1,90 @@
+table {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: collapse;
+    border-color: #003;
+    border-image: none;
+    border-right: 1px solid #003;
+    width: 100%;
+    background: url("images/companioncube-blue.png");
+    border-left: 1px solid #036;
+}
+
+table.border {
+    border: 1px solid var(--table-border-color);
+}
+
+table.border td {
+    background-color: var(--table-td-color);
+    border: 1px solid var(--table-border-color);
+}
+
+table.border td.label {
+    background-color: var(--table-td-label);
+}
+
+table.slice {
+    margin-top: -1px;
+}
+
+td.label {
+    text-align: right;
+}
+
+td.body {
+    background-color: var(--table-td-body);
+}
+
+td.label {
+    background-color: var(--table-td-label);
+    color: var(--white);
+    padding-right: 5px;
+}
+
+td {
+    border: 1px solid #036;
+    padding: 5px;
+    text-align: left;
+}
+
+td.sign a {
+    border: hidden;
+}
+
+td.colhead, .colhead td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr {
+    background-color: transparent;
+    color: var(--white);
+}
+
+tr a {
+    color: #fff;
+    font-weight: bold;
+}
+
+tr a:hover {
+    color: #c7d6f1;
+    text-decoration: underline;
+}
+
+.colhead, .colhead_dark {
+    background: url("images/ColHeadGrad.png") repeat-x scroll 0 center transparent;
+    color: var(--white);
+    font-size: 7pt;
+    font-weight: 700;
+    height: 25px;
+    padding-top: 10px;
+    white-space: nowrap;
+    background-size: auto 100%;
+}
+
+.colhead_dark a {
+    color: white;
+    border-bottom: hidden;
+}

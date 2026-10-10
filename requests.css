@@ -1,0 +1,79 @@
+/* *************************** */
+/* **********REQUESTS********* */
+/* *************************** */
+
+#requests #content table {
+    border: 1px solid #036;
+    background-size: 100% 100%;
+}
+
+#requests #content table tr td.label {
+    background-color: rgba(27, 47, 63, 0.85);
+}
+
+#requests #content table tr td {
+    background-color: transparent;
+    border: none;
+}
+
+#requests #content table tr.rowa {
+    background-color: rgba(27, 47, 63, 0.75);
+}
+
+#requests #content table tr.rowb {
+    background-color: rgba(24, 59, 88, 0.75);
+}
+
+#requests #content .center {
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #036;
+}
+
+#requests #content .center #otherop {
+    margin-bottom: -3px;
+}
+
+#requests #content .center table {
+    background: url('images/companioncube2.png');
+    border: 1px solid #003;
+    margin-bottom: 6px;
+}
+
+#requests #content .center table td {
+    border: none;
+}
+
+#requests #content .center table tr {
+    background-color: rgba(24, 59, 88, 0.85);
+}
+
+#requests #content .center table tr td.label {
+    background-color: rgba(27, 47, 63, 0.65);
+}
+
+#requests #content .center .submit {
+    text-align: right;
+    margin-right: 5px;
+}
+
+#requests #content .colhead_dark td {
+    padding: 0 5px;
+}
+
+#requests #content table tr.colhead_dark td {
+    background: url('images/ColHeadGrad.png');
+}
+
+#requests #content #request_comments tr.colhead_dark td {
+    background-size: contain;
+    padding-bottom: 5px;
+}
+
+#requests .colhead, #requests .colhead_dark {
+    white-space: normal;
+}
+
+#requests #gold_donations {
+    width: 140px;
+}

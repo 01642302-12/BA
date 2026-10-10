@@ -1,0 +1,40 @@
+/* ************************ */
+/* **********BLOG********** */
+/* ************************ */
+#blog .box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#blog .head {
+    padding: 4px;
+    background: url('images/ColHeadGrad.png') repeat-x scroll 0 50% transparent;
+    color: #fff;
+    margin-bottom: 7px;
+    font-size: 11px;
+}
+
+#blog #content ul {
+    margin-left: 25px;
+}
+
+#blog .head a {
+    color: #fff;
+}
+
+#blog .head a:hover {
+    color: #c7d6f1;
+    bottom: 1px;
+    left: 1px;
+    text-decoration: underline;
+}
+
+#blog .box {
+    background-color: #264059;
+    color: #fff;
+    border: 1px solid #003;
+}
+
+#blog .box a {
+    color: #fff;
+}
