@@ -1,0 +1,336 @@
+/*The fixed stylesheet of BA*/
+
+@import url('../game_room/style.css');
+
+/*Setup our own variables to override the game room ones */
+
+@import url('variables.css');
+@import url('achievements.css');
+@import url('bbcode.css');
+@import url('blog.css');
+@import url('bookmarks.css');
+@import url('calendar.css');
+@import url('changelog.css');
+@import url('clans.css');
+@import url('collections.css');
+@import url('donations.css');
+@import url('footer.css');
+@import url('forums.css');
+@import url('gamethemes.css');
+@import url('gazelles.css');
+@import url('header.css');
+@import url('inbox.css');
+@import url('irc.css');
+@import url('items.css');
+@import url('log.css');
+@import url('medals.css');
+@import url('news.css');
+@import url('platforms.css');
+@import url('polls.css');
+@import url('profile.css');
+@import url('ratio.css');
+@import url('requests.css');
+@import url('rules.css');
+@import url('staff.css');
+@import url('stats.css');
+@import url('tables.css');
+@import url('toolbox.css');
+@import url('top10.css');
+@import url('torrents.css');
+@import url('upload.css');
+@import url('userinfo.css');
+@import url('wiki.css');
+
+body {
+    background: var(--background) none;
+    font-family: var(--text-family), serif;
+    color: var(--text-color);
+}
+
+#wrapper { /*General content box on all pages*/
+    position: relative;
+    padding-bottom: 300px; /*Distance between bottom of content and footer*/
+    min-height: 100%;
+    height: 100%;
+}
+
+h2 { /*Header at top of most pages (wiki, requests, etc*/
+    height: 48px;
+    line-height: 48px;
+    color: var(--lightBlue);
+    padding-left: 15px;
+    border-bottom: solid 2px var(--mediumBlue);
+}
+
+h3#irc, h3#general, h3#jump, h3#forums {
+    padding: 10px;
+}
+
+h3#general {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+header {
+    background: url('images/HeaderBG.png');
+}
+
+header #userinfo {
+    border: solid 2px red;
+}
+
+ol {
+    margin-left: 25px;
+}
+
+input, button { /*Input boxes (search, torrent search, etc.)*/
+    background: url("images/BlueGradBtn.png") repeat-x scroll;
+    border: 1px solid var(--gray);
+    color: var(--inputButton-color);
+    padding: 2px 3px;
+}
+
+input:hover, button:hover {
+    border: 1px solid var(--white);
+}
+
+/*Link Colors*/
+a {
+    color: var(--lightBlue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--lighterBlue);
+    text-decoration: underline;
+    position: relative;
+    top: 1px; /*Shift up/left slightly*/
+    left: 1px;
+}
+
+a:active {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#content {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.min_padding {
+    padding: 0;
+}
+
+.label {
+    width: 15%;
+}
+
+.main_column table {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.hidden, .hide {
+    display: none
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+blockquote {
+    border: solid var(--blue-gray) 1px;
+    background-color: var(--blockquote-bg-color);
+    color: var(--white);
+    margin-top: 5px;
+    padding: 10px;
+}
+
+pre {
+    background-color: #426d93;
+    border: 1px dashed var(--blue-gray);
+    padding: 10px;
+    color: #fff;
+}
+
+pre, blockquote {
+    width: 90%;
+}
+
+.curtain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--veryDarkBlue);
+    z-index: 1001;
+    opacity: .70;
+}
+
+.lightbox {
+    position: fixed;
+    text-align: center;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0;
+    z-index: 1002;
+    overflow: auto;
+}
+
+.lightbox img {
+    border: solid var(--text-color) 2px;
+    background-color: white;
+    max-height: 100%;
+    max-width: 98%
+}
+
+select.select_tog {
+    width: 25%;
+}
+
+input.input_tog {
+    width: 65%;
+}
+
+.error_message {
+    border: 1px solid var(--error);
+    background-color: #EDC2DB;
+    color: var(--error);
+    padding: 3px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.save_message {
+    background-color: var(--table-td-label);
+    border: 1px solid var(--blue-gray);
+    color: var(--white);
+    font-weight: 700;
+    padding: 3px 0;
+    text-align: center;
+}
+
+#stats #content .box {
+    background-color: #1d3145;
+}
+
+.slides_container {
+    width: 207px;
+}
+
+.next {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 25px;
+    height: 25px;
+    float: right;
+    background: URL("images/arrow_right.png") no-repeat;
+    border-bottom: none;
+}
+
+.prev {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    width: 25px;
+    height: 25px;
+    float: left;
+    background: URL("images/arrow_left.png") no-repeat;
+}
+
+div.linkbox {
+    text-align: center;
+    padding: 5px;
+    clear: both;
+}
+
+div.breadcrumbs {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.flright {
+    float: right;
+}
+
+.flleft {
+    float: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.min_padding {
+    padding: 0;
+    margin: 0 0;
+}
+
+p.min_padding {
+    margin: 2px 0;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.vertical_space {
+    margin-bottom: 10px;
+}
+
+.box {
+    font-size: 8pt;
+    background-color: #1B2E40;
+}
+
+.pad h3, .pad h4, .padbox h3, .padbox h4 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.body {
+    padding: 3px 0 10px 6px;
+}
+
+.nobullet {
+    list-style: none;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.sidebar .box a.next, .sidebar .box a.prev {
+    border-bottom: none;
+}
+
+span.size5 img {
+    float: right;
+}
+
+/* workaround for calendar display issue */
+div.sidebar #event_div {
+    margin-left: -52px;
+}
+
+footer {
+
+}
