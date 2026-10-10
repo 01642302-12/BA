@@ -1,6 +1,6 @@
 /*The fixed stylesheet of BA*/
 
-@import url('/../game_room/style.css');
+@import url('https://gazellegames.net/static/styles/game_room/style.css');
 
 /*Setup our own variables to override the game room ones */
 
