@@ -4,42 +4,42 @@
 
 /*Setup our own variables to override the game room ones */
 
-@import url('variables.css');
-@import url('achievements.css');
-@import url('bbcode.css');
-@import url('blog.css');
-@import url('bookmarks.css');
-@import url('calendar.css');
-@import url('changelog.css');
-@import url('clans.css');
-@import url('collections.css');
-@import url('donations.css');
-@import url('footer.css');
-@import url('forums.css');
-@import url('gamethemes.css');
-@import url('gazelles.css');
-@import url('header.css');
-@import url('inbox.css');
-@import url('irc.css');
-@import url('items.css');
-@import url('log.css');
-@import url('medals.css');
-@import url('news.css');
-@import url('platforms.css');
-@import url('polls.css');
-@import url('profile.css');
-@import url('ratio.css');
-@import url('requests.css');
-@import url('rules.css');
-@import url('staff.css');
-@import url('stats.css');
-@import url('tables.css');
-@import url('toolbox.css');
-@import url('top10.css');
-@import url('torrents.css');
-@import url('upload.css');
-@import url('userinfo.css');
-@import url('wiki.css');
+@import url('https://01642302-12.github.io/BA/variables.css');
+@import url('https://01642302-12.github.io/BA/achievements.css');
+@import url('https://01642302-12.github.io/BA/bbcode.css');
+@import url('https://01642302-12.github.io/BA/blog.css');
+@import url('https://01642302-12.github.io/BA/bookmarks.css');
+@import url('https://01642302-12.github.io/BA/calendar.css');
+@import url('https://01642302-12.github.io/BA/changelog.css');
+@import url('https://01642302-12.github.io/BA/clans.css');
+@import url('https://01642302-12.github.io/BA/collections.css');
+@import url('https://01642302-12.github.io/BA/donations.css');
+@import url('https://01642302-12.github.io/BA/footer.css');
+@import url('https://01642302-12.github.io/BA/forums.css');
+@import url('https://01642302-12.github.io/BA/gamethemes.css');
+@import url('https://01642302-12.github.io/BA/gazelles.css');
+@import url('https://01642302-12.github.io/BA/header.css');
+@import url('https://01642302-12.github.io/BA/inbox.css');
+@import url('https://01642302-12.github.io/BA/irc.css');
+@import url('https://01642302-12.github.io/BA/items.css');
+@import url('https://01642302-12.github.io/BA/log.css');
+@import url('https://01642302-12.github.io/BA/medals.css');
+@import url('https://01642302-12.github.io/BA/news.css');
+@import url('https://01642302-12.github.io/BA/platforms.css');
+@import url('https://01642302-12.github.io/BA/polls.css');
+@import url('https://01642302-12.github.io/BA/profile.css');
+@import url('https://01642302-12.github.io/BA/ratio.css');
+@import url('https://01642302-12.github.io/BA/requests.css');
+@import url('https://01642302-12.github.io/BA/rules.css');
+@import url('https://01642302-12.github.io/BA/staff.css');
+@import url('https://01642302-12.github.io/BA/stats.css');
+@import url('https://01642302-12.github.io/BA/tables.css');
+@import url('https://01642302-12.github.io/BA/toolbox.css');
+@import url('https://01642302-12.github.io/BA/top10.css');
+@import url('https://01642302-12.github.io/BA/torrents.css');
+@import url('https://01642302-12.github.io/BA/upload.css');
+@import url('https://01642302-12.github.io/BA/userinfo.css');
+@import url('https://01642302-12.github.io/BA/wiki.css');
 
 body {
     background: var(--background) none;
@@ -72,7 +72,7 @@ h3#general {
 }
 
 header {
-    background: url('images/HeaderBG.png');
+    background: url('https://01642302-12.github.io/BA/images/HeaderBG.png');
 }
 
 header #userinfo {
