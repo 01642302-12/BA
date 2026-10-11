@@ -588,7 +588,6 @@ div.sidebar #event_div {
     right: 50%;
     top: 0;
     width: auto;
-    padding-top: 4px;
     text-align: center;
     list-style: none;
     margin-right: -540px;
@@ -691,6 +690,7 @@ div.sidebar #event_div {
     margin-left: auto;
     margin-right: auto;
     top: 237px;
+    height: 66px;
 }
 
 #menu ul {
@@ -748,6 +748,22 @@ div.sidebar #event_div {
     transform: translateX(-50%) rotate(180deg);
     opacity: 0;
     transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+#menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 40px; /* width of the gradient beam */
+    height: 100%;
+    background: linear-gradient(to top,
+    rgba(255, 255, 255, 0.8) 0%, /* bright white at bottom */ rgba(255, 255, 255, 0.2) 50%, /* fading middle */ transparent 66% /* complete fade-out by 66% */
+    );
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
     pointer-events: none;
 }
 
