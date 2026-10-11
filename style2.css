@@ -30,7 +30,6 @@ body {
     font-size: 8pt;
     color: #e1ecf1;
     min-width: 850px;
-    /*Dieslrae - addition for fix #3: "Blue Ambrose places line breaks within words" by weser */
     white-space: normal;
     word-break: normal;
     overflow-wrap: normal;
@@ -43,9 +42,7 @@ body {
     height: 100%;
 }
 
-h2 { /*Header at top of most pages (wiki, requests, etc*/
-    /*height:48px;
-	line-height:48px;			*/ /*Dieslrae - Fix #14 Commenting out height and line-height to fix long lines overflowing the header area (in forums, specifically, but likely elsewhere...too)*/
+h2 {
     color: #7FB7D3; /*Light blue*/
     padding-left: 15px;
     border-bottom: solid 2px #314f6d;
@@ -584,12 +581,21 @@ div.sidebar #event_div {
 /* ********Search Bars******** */
 /* *************************** */
 
+#searchbars {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 237px;
+    width: 984px;
+}
+
 #header #searchbars ul { /*Width, etc. of overall search bar*/
-    width: 1000px;
-    margin: 0 auto;
     padding-top: 4px;
     text-align: center;
     list-style: none;
+    position: static;
 }
 
 #header #searchbars input {
@@ -834,7 +840,6 @@ div.sidebar #event_div {
     width: 150px;
 }
 
-/*Dieslrae - update for fix #10: width of 2 columns should be 150px max (not 160px) to fit within 300px box.*/
 #stats_leeching {
     color: #C7EB00;
     font-family: Arial, sans-serif;
@@ -844,22 +849,18 @@ div.sidebar #event_div {
 #stats_gold {
     color: #C7EB00;
     font-family: Arial, sans-serif;
-    /*margin-top: 10px;*/ /*Dieslrae - update for fix #10: remove to fix formatting.*/
     width: 150px;
 }
 
-/*Dieslrae - update for fix #10: width of 2 columns should be 150px max (not 160px) to fit within 300px box.*/
 #stats_ratio, #stats_share_score {
     color: #7FB7D3;
     font-family: Arial, sans-serif;
 }
 
-/*margin-top:10px;}*/ /*Dieslrae - update for fix #10: remove to fix formatting.*/
 #stats_donor_points {
     margin-right: 40px;
 }
 
-/*Dieslrae - update for fix #10: avoids having donor points & ratio on the same line.*/
 #stats_share_score {
     margin-left: 10px;
 }
@@ -880,13 +881,11 @@ div.sidebar #event_div {
     width: 150px;
 }
 
-/*Dieslrae - update for fix #10: width of 2 columns should be 150px max (not 160px) to fit within 300px box.*/
 #stats_irc {
     color: #C7EB00;
     font-family: Arial, sans-serif;
 }
 
-/*margin-top:10px;}*/ /*Dieslrae - update for fix #10: remove to fix formatting.*/
 #stats_seeding a:link, #stats_leeching a:link {
     color: #7FB7D3;
     font-family: Arial, sans-serif;
@@ -1657,7 +1656,6 @@ table.forum_index { /* Sets background of main forum page */
     display: block;
 }
 
-/*Dieslrae - subtraction for fix #4: "Forum page layout of userinfo_username area is different than other pages" by Dieslrae */
 /*#forums .username {
      padding-right: 5px;}
 
@@ -2015,7 +2013,7 @@ tr.group:hover {
 
 #torrents #content .thin table td.label {
     background-color: rgba(24, 59, 88, 0.85);
-    text-align: left; /*Dieslrae - fix #8: Left align header text for requests within a game group.*/
+    text-align: left; 
 }
 
 #torrents #autocomplete { /* Browse page auto complete */
@@ -2160,7 +2158,7 @@ tbody .r10, tbody .r20, tbody .r50, tbody .r99 {
 
 #torrents #content .main_column .forum_post td.body {
     color: #fff;
-    overflow-wrap: anywhere; /*Dieslrae - added overflow-wrap and word-break for fix #16: "Long URLs overflow in game comments in Chrome." by freedomocracy. */
+    overflow-wrap: anywhere; 
     word-break: break-word;
 }
 
@@ -2405,8 +2403,6 @@ tbody .r10, tbody .r20, tbody .r50, tbody .r99 {
 .torrent_table tr.group_torrent td span, #torrent_table tr.group_torrent td span {
     margin-left: 18px;
 }
-
-/*color:#fff;}*/ /*Dieslrae - subtraction for fix #5: "version portion of torrent is different color than rest of text" by ggnwarlan */
 
 .torrent_table tr.group_torrent a, #torrent_table tr.group_torrent a {
     color: white;
@@ -3420,7 +3416,6 @@ tbody .r10, tbody .r20, tbody .r50, tbody .r99 {
     background: url('https://gazellegames.net/static/styles/blue_ambrose/images/caticons/wiiware.png')
 }
 
-/*.windows			{height:28px; width:28px; background: url('../game_room/images/caticons/windows.png')} /*Dieslrae - addition for fix #2: "Windows caticon is using Win7 instead of Win11 icon" by TripleR */
 .windows {
     height: 28px;
     width: 28px;
@@ -4095,8 +4090,6 @@ td.cats_col {
     background: url("https://gazellegames.net/static/styles/blue_ambrose/images/crossn.png") no-repeat left center;
 }
 
-/****Image Gallery****/ /*Dieslrae - Fix #6: Update to have .gallery apply globally (not just within .profile .box_art_gallery), so it works on wiki pages too */
-/*.profile .box_art_gallery*/
 .gallery {
     margin-left: 3px;
     display: inline-block;
@@ -8314,7 +8307,6 @@ iframe {
     max-width: 100%;
 }
 
-/*Dieslrae - subtraction for fix #3: "Blue Ambrose places line breaks within words" by weser */
 /*td a { word-break: break-all;}
 td a { word-break: break-all;}*/
 
@@ -8345,7 +8337,6 @@ form#tag_add_form input[type="submit"] {
     text-align: left;
 }
 
-/*Dieslrae - addition for fix #1: "Tags group is bunched up after tag system overhaul update" by Sturm */
 #group_tags {
     padding: 3px 0 10px 6px;
 }
@@ -8366,35 +8357,27 @@ form#tag_add_form input[type="submit"] {
     margin-top: 5px;
 }
 
-/*Dieslrae - addition for fix #11 for improving tag readability. */
-
 .theme_collections {
     padding: 3px 0 10px 6px;
 }
 
 /* Match .body sidebar spacing for theme_collections */
 
-/*Dieslrae - addition for fix #7: "No spacing between the release date and the age rating in the header of a game's torrent page"*/
 .group_rating { /*Added to match Game Room exactly.*/
     margin-left: 0.5em;
     font-size: 0.85em;
 }
 
-/*Dieslrae - addition for fix #9: "Donor hearts appear wonky in the "Top contributors" section on the right side of a collection"*/
 .donor_badge_icon.tooltip {
     margin: 0;
     border: none;
 }
 
-/*Dieslrae - addition for fix #12: group titles wrap and overlap into the linkbox groupoptions*/
 #display_name {
     height: unset;
     line-height: unset;
 }
 
-
-/*Dieslrae - addition for fix #13: new 2026 OST dropdown fixes*/
-/*This is copied from lines 760-818 of torrentsGames.css*/
 td.ost_groups {
     position: relative;
     anchor-name: --ost-popover-trigger;
@@ -8462,7 +8445,6 @@ td.ost_groups ul li a:hover {
     text-align: right;
 }
 
-/*Dieslrae - fix #15 - Add specific tag input boxes to extend the width as much as possible to allow more tags to be visible.*/
 #add_tags_input > input { /*Input boxes (for tag entry on a group page)*/
     background: url("https://gazellegames.net/static/styles/blue_ambrose/images/BlueGradBtn.png") repeat-x scroll;
     border: 1px solid #999999;
@@ -8489,8 +8471,6 @@ input:hover {
     border: 1px solid #fff;
 }
 
-
-/*Dieslrae - fix #17 Restore normal UL behavior for BBCode lists in inbox*/
 ul.postlist {
     all: revert;
 }
