@@ -581,20 +581,25 @@ div.sidebar #event_div {
 /* ********Search Bars******** */
 /* *************************** */
 
-#searchbars {
+#searchbars ul {
+    display: block;
+    height: 22px;
     position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 984px;
+    right: 50%;
+    top: 187px;
+    width: auto;
+    margin-right: -540px;
 }
 
 #header #searchbars ul { /*Width, etc. of overall search bar*/
     padding-top: 4px;
     text-align: center;
     list-style: none;
-    position: static;
+    position: absolute;
+    width: auto;
+    right: 50%;
+    display: block;
+    height: 22px;
 }
 
 #header #searchbars input {
@@ -694,11 +699,10 @@ div.sidebar #event_div {
     margin-left: auto;
     margin-right: auto;
     top: 237px;
-    width: 984px;
 }
 
 #menu ul {
-    background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavULBG.png');
+    /*background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavULBG.png');*/
     height: 66px;
     list-style: none;
     text-align: center;
@@ -713,7 +717,7 @@ div.sidebar #event_div {
 }
 
 #menu ul .last a { /*Hides last divider*/
-    background: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavLILast.png') no-repeat scroll right bottom transparent;
+    /*background: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavLILast.png') no-repeat scroll right bottom transparent;*/
 }
 
 #menu ul .last a:hover {
@@ -724,7 +728,7 @@ div.sidebar #event_div {
 }
 
 #menu ul li a { /*Content and hover look*/
-    background: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavLI.png') no-repeat scroll right bottom transparent;
+    /*background: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavLI.png') no-repeat scroll right bottom transparent;*/
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 12px;
@@ -735,13 +739,36 @@ div.sidebar #event_div {
     height: 48px;
     line-height: 57px;
     width: 94px;
+    position: relative;
+    overflow: hidden;
+}
+
+#menu ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 300px solid rgba(255, 255, 255, 0.3);
+    transform: translateX(-50%) rotate(180deg);
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
 }
 
 #menu ul li a:hover {
-    background: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavLI.png') no-repeat scroll right top transparent;
+    /*background: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavLI.png') no-repeat scroll right top transparent;*/
     position: relative;
     top: 0;
     left: 0;
+}
+
+#menu ul li a:hover::before {
+    opacity: 1;
+    transform: translateX(-50%) rotate(180deg) translateY(-20px);
 }
 
 /* ************************** */
