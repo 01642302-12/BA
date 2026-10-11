@@ -740,14 +740,13 @@ div.sidebar #event_div {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 300px solid rgb(185 233 243 / 0.3);
-    transform: translateX(-50%) rotate(180deg);
-    opacity: 0;
-    transition: all 0.3s ease;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(to top,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 66%);
+    transform: translateX(-50%);
     pointer-events: none;
 }
 
@@ -756,12 +755,12 @@ div.sidebar #event_div {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 40px; /* width of the gradient beam */
-    height: 100%;
-    background: linear-gradient(to top,
-    rgba(255, 255, 255, 0.8) 0%, /* bright white at bottom */ rgba(255, 255, 255, 0.2) 50%, /* fading middle */ transparent 66% /* complete fade-out by 66% */
-    );
-    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 200px solid rgba(255, 255, 255, 0.3);
+    transform: translateX(-50%) rotate(180deg);
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
@@ -777,6 +776,10 @@ div.sidebar #event_div {
 #menu ul li a:hover::before {
     opacity: 1;
     transform: translateX(-50%) rotate(180deg) translateY(-20px);
+}
+
+#menu ul li a:hover::after {
+    opacity: 1;
 }
 
 /* ************************** */
