@@ -581,25 +581,17 @@ div.sidebar #event_div {
 /* ********Search Bars******** */
 /* *************************** */
 
-#searchbars ul {
+#header #searchbars ul { /*Width, etc. of overall search bar*/
     display: block;
     height: 22px;
     position: absolute;
     right: 50%;
-    top: 187px;
+    top: 0;
     width: auto;
-    margin-right: -540px;
-}
-
-#header #searchbars ul { /*Width, etc. of overall search bar*/
     padding-top: 4px;
     text-align: center;
     list-style: none;
-    position: absolute;
-    width: auto;
-    right: 50%;
-    display: block;
-    height: 22px;
+    margin-right: -540px;
 }
 
 #header #searchbars input {
@@ -752,7 +744,7 @@ div.sidebar #event_div {
     height: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
-    border-bottom: 300px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 300px solid rgb(185 233 243 / 0.3);
     transform: translateX(-50%) rotate(180deg);
     opacity: 0;
     transition: all 0.3s ease;
