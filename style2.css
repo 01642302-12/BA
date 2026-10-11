@@ -587,7 +587,6 @@ div.sidebar #event_div {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 237px;
     width: 984px;
 }
 
@@ -619,6 +618,11 @@ div.sidebar #event_div {
 #header #searchbars ul li { /*Drop down of search menu*/
     display: inline-block;
     position: relative;
+    margin-right: 20px;
+}
+
+#header #searchbars ul li:last-child {
+    margin-right: 0;
 }
 
 #header #searchbars ul li ul {
@@ -2013,7 +2017,7 @@ tr.group:hover {
 
 #torrents #content .thin table td.label {
     background-color: rgba(24, 59, 88, 0.85);
-    text-align: left; 
+    text-align: left;
 }
 
 #torrents #autocomplete { /* Browse page auto complete */
@@ -2158,7 +2162,7 @@ tbody .r10, tbody .r20, tbody .r50, tbody .r99 {
 
 #torrents #content .main_column .forum_post td.body {
     color: #fff;
-    overflow-wrap: anywhere; 
+    overflow-wrap: anywhere;
     word-break: break-word;
 }
 
