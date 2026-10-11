@@ -242,7 +242,7 @@ strong.newnoti {
     margin: 0 auto;
     width: 984px;
     text-align: center;
-    top: 293px;
+    top: 320px;
     color: #FFF;
 }
 
@@ -583,14 +583,13 @@ div.sidebar #event_div {
 
 #header #searchbars ul { /*Width, etc. of overall search bar*/
     display: block;
-    height: 22px;
     position: absolute;
     right: 50%;
     top: 0;
     width: auto;
     text-align: center;
     list-style: none;
-    margin-right: -540px;
+    margin-right: -470px;
 }
 
 #header #searchbars input {
@@ -614,7 +613,8 @@ div.sidebar #event_div {
 #header #searchbars ul li { /*Drop down of search menu*/
     display: inline-block;
     position: relative;
-    margin-right: 20px;
+    width: 170px;
+    font-size: 16pt;
 }
 
 #header #searchbars ul li:last-child {
