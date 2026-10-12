@@ -589,7 +589,7 @@ div.sidebar #event_div {
     width: auto;
     text-align: center;
     list-style: none;
-    margin-right: -470px;
+    margin-right: -540px;
 }
 
 #header #searchbars input {
@@ -770,11 +770,11 @@ div.sidebar #event_div {
 
 #userinfo {
     background: url("https://gazellegames.net/static/styles/blue_ambrose/images/UserBG.png") no-repeat scroll 0 0 transparent;
-    left: 0;
+    left: 32%;
     margin: 0 auto;
     position: absolute;
     right: 0;
-    top: 318px;
+    top: 345px;
     width: 976px;
     height: 87px;
 }
@@ -784,10 +784,10 @@ div.sidebar #event_div {
 }
 
 #userinfo #userinfo_username {
-    float: right;
     list-style: none;
-    width: 220px;
     margin-top: 10px;
+    left: 24%;
+    top: 6px;
 }
 
 #userinfo #userinfo_username li {
