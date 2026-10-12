@@ -773,9 +773,7 @@ div.sidebar #event_div {
     left: 32%;
     margin: 0 auto;
     position: absolute;
-    right: 0;
     top: 345px;
-    width: 976px;
     height: 87px;
 }
 
@@ -786,8 +784,9 @@ div.sidebar #event_div {
 #userinfo #userinfo_username {
     list-style: none;
     margin-top: 10px;
-    left: 24%;
     top: 6px;
+    float: right;
+    margin-left: 250px;
 }
 
 #userinfo #userinfo_username li {
@@ -807,6 +806,8 @@ div.sidebar #event_div {
     padding-left: 20px;
     height: 20px;
     margin-top: 10px;
+    left: 95px;
+    top: 40px;
 }
 
 #userinfo #userinfo_username .donateico a:link {
@@ -837,6 +838,7 @@ div.sidebar #event_div {
     color: #C7EB00;
     font-family: Arial, sans-serif;
     text-decoration: none;
+    font-size: 1em;
 }
 
 #userinfo .brackets a:hover {
