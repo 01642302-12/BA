@@ -25,7 +25,8 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-color: #0E1720; /*Background color (very dark blue)*/
+    /*Background color (very dark blue)*/
+    background: #0E1720 none;
     font-family: tahoma, helvetica, sans-serif;
     color: #e1ecf1;
     white-space: normal;
@@ -683,6 +684,7 @@ div.sidebar #event_div {
     margin-right: auto;
     top: 237px;
     height: 66px;
+    box-shadow: none;
 }
 
 #menu ul {
@@ -1422,11 +1424,11 @@ div.sidebar #event_div {
 }
 
 #index #content {
-    width: 984px;
+    top: 192px;
 }
 
 #index .thin {
-    width: 984px;
+
 }
 
 h2 a.username {
