@@ -198,7 +198,7 @@ tr a:hover {
 }
 
 #header .sub {
-    height: 1px;
+    height: 0px;
     left: 50px;
     overflow: visible;
     position: relative;
@@ -209,10 +209,10 @@ tr a:hover {
 }
 
 #header .sub span {
-    background: url("https://gazellegames.net/static/styles/blue_ambrose/images/ColHeadGrad.png") repeat-x scroll 0 50% transparent;
+    background-color: var(--mediumBlue);
     border: 1px solid #003;
     display: block;
-    padding: 5px;
+    padding: 0;
 }
 
 #header .sub a {
@@ -659,6 +659,7 @@ div.sidebar #event_div {
     position: static;
     padding-top: 34px;
     background: url('https://gazellegames.net/static/styles/blue_ambrose/images/Logo.png') no-repeat -43px;
+    border: none;
 }
 
 #logo a {
@@ -763,11 +764,12 @@ div.sidebar #event_div {
 /* ************************** */
 
 #userinfo {
-    margin: 0 auto;
     position: absolute;
     top: 345px;
     height: 100px;
-    background-color: #426d93;
+    background-color: #1b2e40;
+    width: 42%;
+    margin: 0 auto 0 29%;
 }
 
 #userinfo_username li.brackets { /* Right-hand side (user name, donate, etc.)*/
@@ -777,9 +779,14 @@ div.sidebar #event_div {
 #userinfo #userinfo_username {
     list-style: none;
     margin-top: 10px;
-    top: 6px;
+    top: 2px;
+    height: 65%;
     float: right;
     margin-left: 250px;
+    background-color: #28445d;
+    margin-right: 20px;
+    padding-top: 14px;
+    padding-left: 10px;
 }
 
 #userinfo #userinfo_username li {
@@ -800,7 +807,7 @@ div.sidebar #event_div {
     height: 20px;
     margin-top: 10px;
     left: 95px;
-    top: 40px;
+    top: 50px;
 }
 
 #userinfo #userinfo_username .donateico a:link {
@@ -2487,7 +2494,6 @@ tbody .r10, tbody .r20, tbody .r50, tbody .r99 {
 }
 
 .sub span {
-    background: url("https://gazellegames.net/static/styles/blue_ambrose/images/ColHeadGrad.png") repeat-x scroll 0 50% transparent;
     border: 1px solid #003;
     display: block;
     padding: 5px;
