@@ -220,9 +220,9 @@ tr a:hover {
 }
 
 #content {
-    width: 1000px;
     margin: 0 auto;
     overflow: hidden;
+    top: 275px;
 }
 
 .thin {
@@ -766,10 +766,10 @@ div.sidebar #event_div {
 #userinfo {
     position: absolute;
     top: 345px;
-    height: 100px;
+    height: 175px;
     background-color: #1b2e40;
-    width: 42%;
-    margin: 0 auto 0 29%;
+    width: 50%;
+    margin: 0 auto 0 25%;
 }
 
 #userinfo_username li.brackets { /* Right-hand side (user name, donate, etc.)*/
@@ -778,14 +778,13 @@ div.sidebar #event_div {
 
 #userinfo #userinfo_username {
     list-style: none;
-    margin-top: 10px;
-    top: 2px;
-    height: 65%;
+    margin-top: 22px;
+    height: 84%;
+    width: 20%;
     float: right;
-    margin-left: 250px;
-    background-color: #28445d;
+    margin-left: 350px;
+    background-color: var(--mediumBlue);
     margin-right: 20px;
-    padding-top: 14px;
     padding-left: 10px;
 }
 
@@ -847,17 +846,25 @@ div.sidebar #event_div {
     text-decoration: underline;
 }
 
+#userinfo ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0;
+    list-style: none;
+    padding: 0;
+}
+
 #userinfo #userinfo_stats { /*Left-hand side (Stats box)*/
     float: left;
-    display: block;
-    border: solid 1px red;
-    background: none;
-    background-color: rgba(0, 0, 0, 0);
-    height: 100px;
-    width: 300px;
+    background: rgba(0, 0, 0, 0) none;
+    height: 142px;
+    width: 35%;
     position: static;
     margin: 15px 30px 0 31%;
-    background-color: black;
+}
+
+#userinfo_stats:hover li {
+    top: 0;
 }
 
 #userinfo #userinfo_stats li {
@@ -865,6 +872,9 @@ div.sidebar #event_div {
     list-style: none outside none;
     float: left;
     display: block;
+    border: none;
+    width: 100%;
+    padding-left: 26px;
 }
 
 #userinfo_stats li {
@@ -1428,10 +1438,6 @@ div.sidebar #event_div {
 #index blockquote {
     background-color: #193148;
     color: #fff;
-}
-
-#index #content {
-    top: 192px;
 }
 
 #index .thin {
