@@ -778,7 +778,6 @@ div.sidebar #event_div {
 
 #userinfo #userinfo_username {
     list-style: none;
-    margin-top: 22px;
     height: 84%;
     width: 20%;
     float: right;
@@ -786,6 +785,7 @@ div.sidebar #event_div {
     background-color: var(--mediumBlue);
     margin-right: 20px;
     padding-left: 10px;
+    margin-top: 1.5%;
 }
 
 #userinfo #userinfo_username li {
@@ -858,9 +858,9 @@ div.sidebar #event_div {
     float: left;
     background: rgba(0, 0, 0, 0) none;
     height: 142px;
-    width: 35%;
+    width: 33%;
     position: static;
-    margin: 15px 30px 0 31%;
+    margin: 1% 30px 0 31%;
 }
 
 #userinfo_stats:hover {
@@ -949,11 +949,12 @@ div.sidebar #event_div {
 }
 
 #userinfo #userinfo_minor { /*Middle links*/
-    display: inline-block;
-    list-style: none outside none;
-    width: 400px;
+    position: static;
+    width: 33%;
+    float: left;
+    margin-left: -67%;
+    margin-top: 1%;
     height: auto;
-    margin-top: 10px;
 }
 
 #userinfo_minor:hover {
