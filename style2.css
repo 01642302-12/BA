@@ -766,9 +766,9 @@ div.sidebar #event_div {
 #userinfo {
     position: relative;
     top: 45%;
-    height: 175px;
+    height: 60%;
     background-color: #1b2e40;
-    width: 50%;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -8525,4 +8525,17 @@ input:hover {
 
 ul.postlist {
     all: revert;
+}
+
+/** Screensizes **/
+@media screen and (max-width: 1150px) and (min-width: 1001px) {
+    #userinfo {
+        width: 1100px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #userinfo {
+        width: 1300px;
+    }
 }
