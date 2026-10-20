@@ -778,14 +778,15 @@ div.sidebar #event_div {
 
 #userinfo #userinfo_username {
     list-style: none;
-    height: 84%;
-    width: 20%;
+    height: 86%;
+    width: 24%;
     float: right;
-    margin-left: 350px;
+    margin-left: 23%;
     background-color: var(--mediumBlue);
     margin-right: 20px;
     padding-left: 10px;
     margin-top: 1.5%;
+    border: solid orange;
 }
 
 #userinfo #userinfo_username li {
@@ -857,10 +858,11 @@ div.sidebar #event_div {
 #userinfo #userinfo_stats { /*Left-hand side (Stats box)*/
     float: left;
     background: rgba(0, 0, 0, 0) none;
-    height: 142px;
+    height: 86%;
     width: 33%;
     position: static;
-    margin: 1% 30px 0 31%;
+    margin: 1% 0 0 38%;
+    border: solid blue;
 }
 
 #userinfo_stats:hover {
@@ -877,8 +879,12 @@ div.sidebar #event_div {
     float: left;
     display: block;
     border: none;
-    width: 100%;
+    width: 84%;
     padding-left: 26px;
+}
+
+#userinfo #userinfo_minor li a {
+    padding-left: 25%;
 }
 
 #userinfo_stats li {
@@ -950,19 +956,17 @@ div.sidebar #event_div {
 
 #userinfo #userinfo_minor { /*Middle links*/
     position: static;
-    width: 33%;
+    width: 35%;
     float: left;
-    margin-left: -67%;
+    margin-left: -70%;
     margin-top: 1%;
-    height: auto;
+    height: 86%;
+    border: solid red;
 }
 
 #userinfo_minor:hover {
+    background-color: var(--mediumBlue);
     padding-top: 0;
-}
-
-#userinfo #userinfo_minor li {
-    display: inline;
 }
 
 #userinfo #userinfo_minor li a:link, #userinfo #userinfo_minor li a:visited {
@@ -972,6 +976,12 @@ div.sidebar #event_div {
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: none;
     width: 100px;
+}
+
+#userinfo #userinfo_minor li {
+    background-color: var(--mediumBlue);
+    display: inline;
+    width: 100%;
 }
 
 #userinfo #userinfo_minor li a:hover {
@@ -1006,7 +1016,9 @@ div.sidebar #event_div {
     background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/NavUserIcons.png');
     background-repeat: no-repeat;
     background-position: 0 -179px;
-    padding-left: 20px;
+    padding-left: 25%;
+    width: 32px;
+    height: 32px;
 }
 
 #userinfo #userinfo_minor .postsico {
