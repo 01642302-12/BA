@@ -1376,8 +1376,6 @@ div.sidebar #event_div {
 }
 
 .main_column .head .newsdate {
-    background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/DateBG.png');
-    background-repeat: no-repeat;
     width: 96px;
     height: 35px;
     line-height: 35px;
@@ -1388,6 +1386,10 @@ div.sidebar #event_div {
     font-weight: bolder;
     font-family: Helvetica, Verdana, Arial, sans-serif;
     font-size: 10pt;
+    background-color: #6d90ba;
+    border-radius: 6px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .main_column_bg, .main_column, #main_column_bottom, #main_column_top {
