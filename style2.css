@@ -1344,10 +1344,14 @@ div.sidebar #event_div {
 
 .sidebar .box ul {
     padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar .box ol {
     padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar .box a {
