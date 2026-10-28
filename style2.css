@@ -226,7 +226,6 @@ tr a:hover {
 }
 
 .thin {
-    width: 1000px;
     margin: 0 auto;
 }
 
@@ -8549,5 +8548,11 @@ ul.postlist {
 @media screen and (min-width: 1400px) {
     #userinfo {
         width: 1300px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #index .main_column {
+        width: 100%;
     }
 }
