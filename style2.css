@@ -1358,9 +1358,7 @@ div.sidebar #event_div {
 }
 
 .main_column .box .head {
-    background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/MainHeader.png');
     height: 48px;
-    width: 735px;
     background-repeat: no-repeat;
     line-height: 48px;
     margin: 15px auto;
@@ -1398,10 +1396,11 @@ div.sidebar #event_div {
 
 .main_column_bg {
     background-color: #27415A;
-    width: 762px;
+    width: 75%;
     overflow: hidden;
     position: relative;
     z-index: 1;
+    margin-top: 2%;
 }
 
 .main_column {
@@ -1422,10 +1421,7 @@ div.sidebar #event_div {
 }
 
 #main_column_top {
-    background-image: url("https://gazellegames.net/static/styles/blue_ambrose/images/MainBodyTop.png");
-    height: 595px;
     position: absolute;
-    width: 762px;
     z-index: 2;
     background-repeat: no-repeat;
 }
@@ -1437,7 +1433,7 @@ div.sidebar #event_div {
 
 .main_column .box .pad {
     color: #CEF6FF;
-    margin-left: 15px;
+    margin-left: 1%;
     font-family: Helvetica, Verdana, Arial, sans-serif;
     font-size: 9pt;
 }
@@ -8554,5 +8550,11 @@ ul.postlist {
 @media screen and (min-width: 1400px) {
     #index .main_column {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #index .sidebar {
+        width: 20%
     }
 }
