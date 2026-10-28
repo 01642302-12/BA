@@ -1092,18 +1092,11 @@ div.sidebar #event_div {
     position: absolute;
     bottom: 0;
     left: 0;
-    color: #cef6ff;
     width: 100%;
-    height: 254px;
-    background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/FooterBG.png');
-    background-repeat: repeat-x;
+    background-color: #233c54;
 }
 
 #footer_image {
-    background-image: url('https://gazellegames.net/static/styles/blue_ambrose/images/FooterRight.png');
-    height: 250px;
-    width: 536px;
-    position: absolute;
     bottom: 0;
     right: 0;
     z-index: 0;
@@ -1124,6 +1117,7 @@ div.sidebar #event_div {
     font-weight: 700;
     margin-left: 20px;
     z-index: 1;
+    background-color: #233c54;
 }
 
 #footer #server_stats {
@@ -1134,12 +1128,14 @@ div.sidebar #event_div {
     position: absolute;
     right: 10px;
     z-index: 1;
+    background-color: #233c54;
 }
 
 #footer #toplink {
     position: absolute;
     bottom: 5px;
     left: 10px;
+    background-color: #233c54;
 }
 
 #footer a {
