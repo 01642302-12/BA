@@ -1112,10 +1112,11 @@ div.sidebar #event_div {
 }
 
 #footer #copyright {
-    position: relative;
+    position: absolute;
+    bottom: 25%;
     font-family: Helvetica, sans-serif;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 35%;
     z-index: 1;
     background-color: #233c54;
 }
@@ -1124,18 +1125,24 @@ div.sidebar #event_div {
     font-family: Helvetica, sans-serif;
     color: #d8ff00;
     float: right;
-    bottom: 5px;
+    bottom: 0;
+    margin-left: 25%;
     position: absolute;
     right: 10px;
     z-index: 1;
     background-color: #233c54;
+    width: auto;
 }
 
 #footer #toplink {
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     left: 10px;
-    background-color: #233c54;
+    background-color: initial;
+}
+
+#copyright p:nth-of-type(2) {
+    background-color: inherit;
 }
 
 #footer a {
@@ -1409,7 +1416,6 @@ div.sidebar #event_div {
 }
 
 #main_column_bottom {
-    background-image: url("https://gazellegames.net/static/styles/blue_ambrose/images/MainBodyBottom.png");
     height: 272px;
     width: 762px;
     z-index: 2;
@@ -4868,7 +4874,7 @@ ul.collage_images img {
 /* ************************ */
 
 #wiki .thin {
-    width: 853px !important;
+    width: 100%;
 }
 
 #wiki pre {
@@ -4892,7 +4898,7 @@ ul.collage_images img {
     border-radius: 15px 15px 15px 15px;
     border: 1px #036 solid;
     margin-left: 0;
-    width: 628px;
+    width: 80%;
     margin-bottom: 12px;
 }
 
@@ -4902,7 +4908,7 @@ ul.collage_images img {
     margin: auto;
     padding: 11px;
     text-align: left;
-    width: 450px;
+    width: 100%;
     box-shadow: 1px 1px 5px 1px #666;
 }
 
