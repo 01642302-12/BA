@@ -1216,7 +1216,7 @@ div.sidebar #event_div {
 
 .sidebar {
     float: right;
-    width: 207px;
+    width: 26%;
     height: 100%;
 }
 
@@ -1400,7 +1400,7 @@ div.sidebar #event_div {
 
 .main_column_bg {
     background-color: #27415A;
-    width: 75%;
+    width: 70%;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -4897,7 +4897,7 @@ ul.collage_images img {
     border-radius: 15px 15px 15px 15px;
     border: 1px #036 solid;
     margin-left: 0;
-    width: 80%;
+    width: 72%;
     margin-bottom: 12px;
 }
 
@@ -8558,6 +8558,12 @@ ul.postlist {
 
 @media screen and (min-width: 1400px) {
     #index .sidebar {
-        width: 20%
+        width: 26%
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #upcoming_calendar, #blogposts, #dailygazelle, #slides, #polcont, #stats {
+        width: 100%
     }
 }
